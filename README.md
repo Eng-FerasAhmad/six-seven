@@ -74,4 +74,4 @@ Expected URL: https://eng-ferasahmad.github.io/six-seven/
 
 This version supports one child per browser profile. Progress remains in localStorage across normal deployments on the same domain. It is not uploaded to GitHub or shared between devices. Clearing site data or using another browser will not preserve it automatically.
 
-Under **Meine Erfolge → Fortschritt sichern**, download a JSON backup and load it on another browser/device. Loading merges valid progress with existing progress. Keep backups outside the repository. To move progress from localhost to the published site, download it locally, open the published site, and load that file there. Imported active tests retain their original deadline.
+Under **Reber erlog → Fortschritt sichern**, download a JSON backup and load it on another browser/device. Loading merges valid progress with existing progress. Keep backups outside the repository. To move progress from localhost to the published site, download it locally, open the published site, and load that file there. Imported active tests retain their original deadline.

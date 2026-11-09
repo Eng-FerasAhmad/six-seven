@@ -164,7 +164,7 @@ describe("page navigation", () => {
         screen.getByRole("button", { name: /six seeeven (Startseite|home)/ }),
       );
     }
-    await user.click(screen.getByRole("button", { name: /Meine Erfolge/ }));
+    await user.click(screen.getByRole("button", { name: /Reber erlog/ }));
     expect(
       screen.getByRole("heading", { name: /Schau, was du schon kannst/ }),
     ).toBeInTheDocument();
@@ -212,7 +212,7 @@ describe("subject courses and tests", () => {
     expect(screen.getByRole("status")).toHaveTextContent(
       "1 von 2 richtig · 50 %",
     );
-    await user.click(screen.getByRole("button", { name: /Meine Erfolge/ }));
+    await user.click(screen.getByRole("button", { name: /Reber erlog/ }));
     expect(screen.getByRole("table")).toHaveTextContent("50 %");
     expect(screen.getByRole("table")).toHaveTextContent("Erster Versuch");
   });
