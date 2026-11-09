@@ -1,6 +1,8 @@
+import { MobileNavigation } from "./components/layout/MobileNavigation";
+import { useIsMobile } from "./hooks/useIsMobile";
 import { LanguageProvider } from "./i18n/LanguageProvider";
 import { FocusedTest } from "./features/tests/FocusedTest";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Lesson, SubjectId, TestDefinition } from "./types";
 import { subjects, tests } from "./content";
 import { Sidebar } from "./components/layout/Sidebar";
@@ -14,6 +16,7 @@ import { TestPage } from "./features/tests/TestPage";
 import { useTestProgress } from "./hooks/useTestProgress";
 import { useCourseHistory } from "./hooks/useCourseHistory";
 import "./App.css";
+import "./mobile.css";
 
 type Page =
   | { kind: "overview"; subjectId: SubjectId | null }
@@ -22,6 +25,7 @@ type Page =
   | { kind: "test"; test: TestDefinition; subjectId: SubjectId };
 
 export default function App() {
+  const isMobile = useIsMobile();
   const [page, setPage] = useState<Page>({ kind: "overview", subjectId: null });
   const { completed, nextLesson, completeExercise } = useLearningProgress();
   const testProgress = useTestProgress();
@@ -36,6 +40,9 @@ export default function App() {
 
   const activeSession = testProgress.active[0];
   const activeTest = tests.find((test) => test.id === activeSession?.testId);
+  useEffect(() => {
+    if (window.scrollY > 0) window.scrollTo({ top: 0, behavior: "instant" });
+  }, [page, activeSession?.id]);
   if (activeSession && activeTest) {
     return (
       <LanguageProvider english={activeTest.subjectId === "englisch"}>
@@ -66,15 +73,25 @@ export default function App() {
   return (
     <LanguageProvider english={subjectId === "englisch"}>
       <div className="app-shell">
-        <Sidebar
-          subject={subjectId}
-          showProgress={page.kind === "progress"}
-          onHome={goHome}
-          onProgress={() => setPage({ kind: "progress" })}
-          onSubject={openSubject}
-        />
+        {isMobile ? (
+          <MobileNavigation
+            subject={subjectId}
+            showProgress={page.kind === "progress"}
+            onHome={goHome}
+            onProgress={() => setPage({ kind: "progress" })}
+            onSubject={openSubject}
+          />
+        ) : (
+          <Sidebar
+            subject={subjectId}
+            showProgress={page.kind === "progress"}
+            onHome={goHome}
+            onProgress={() => setPage({ kind: "progress" })}
+            onSubject={openSubject}
+          />
+        )}
         <div className="main-shell">
-          <TopBar />
+          <TopBar onHome={goHome} mobile={isMobile} />
           <main>
             {page.kind === "progress" ? (
               <ProgressPage

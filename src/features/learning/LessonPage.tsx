@@ -1,7 +1,7 @@
 import { PlaceValueLesson } from "./math/PlaceValueLesson";
 import { AdditionLesson } from "./math/AdditionLesson";
 import { useLanguage } from "../../i18n/useLanguage";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, Sparkles } from "lucide-react";
 import { exercises } from "../../content";
 import type { Lesson } from "../../types";
@@ -20,6 +20,9 @@ export function LessonPage({ lesson, onBack, onComplete, onAttempt }: Props) {
     (exercise) => exercise.lessonId === lesson.id,
   );
   const exercise = courseExercises[exerciseIndex];
+  useEffect(() => {
+    if (window.scrollY > 0) window.scrollTo({ top: 0, behavior: "instant" });
+  }, [practice, exerciseIndex]);
   function continueLearning() {
     if (exerciseIndex < courseExercises.length - 1)
       setExerciseIndex((index) => index + 1);

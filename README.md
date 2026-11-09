@@ -29,6 +29,7 @@ Courses present their lesson first, then the exercises in sequence. Restart the 
 
 ## Features
 
+- Mobile bottom navigation, a modal subject picker, full-width readable content and larger touch targets; desktop keeps the sidebar.
 - Subject pages with separate courses and tests, dated course cards, lessons, exercises and achievements.
 - Timed tests with saved answers, automatic submission, result review and repeat attempts.
 - Active tests fill the screen and hide app navigation, including after reload. Tests fill the browser viewport without activating browser fullscreen. A native beforeunload warning is registered for active tests; browsers control whether it appears and its wording.

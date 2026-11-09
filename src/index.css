@@ -11,7 +11,7 @@
   --bg: #f8f9fd;
   --surface: #fff;
   --text: #25233e;
-  --muted: #858496;
+  --muted: #6d6b80;
   --border: #eaeaf2;
   --active: #efedff;
   --purple: #7360d8;
@@ -33,7 +33,7 @@
 }
 body {
   margin: 0;
-  min-width: 360px;
+  min-width: 320px;
 }
 button,
 input {

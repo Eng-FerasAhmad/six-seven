@@ -1,12 +1,28 @@
+import logo from "../../../brand/logo.png";
 import { useLanguage } from "../../i18n/useLanguage";
 import { Moon, Sun } from "lucide-react";
 import { fontSizes, usePreferences } from "../../hooks/usePreferences";
-export function TopBar() {
+export function TopBar({
+  onHome,
+  mobile,
+}: {
+  onHome: () => void;
+  mobile: boolean;
+}) {
   const { t } = useLanguage();
   const { fontSize, dark, decreaseFontSize, increaseFontSize, toggleTheme } =
     usePreferences();
   return (
     <header className="topbar">
+      {mobile && (
+        <button
+          className="mobile-brand"
+          onClick={onHome}
+          aria-label={t("six seeeven Startseite", "six seeeven home")}
+        >
+          <img src={logo} alt="six seeeven" />
+        </button>
+      )}
       <div className="header-actions">
         <div
           className="font-size-control"
