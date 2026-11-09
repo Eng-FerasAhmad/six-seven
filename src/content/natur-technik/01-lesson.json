@@ -1,0 +1,16 @@
+{
+  "id": "natur-technik-1",
+  "subjectId": "natur-technik",
+  "title": "Was Pflanzen brauchen",
+  "description": "Das Geheimnis grüner Blätter.",
+  "minutes": 6,
+  "sections": [
+    {
+      "title": "Pflanzen erforschen",
+      "text": "Pflanzen brauchen Wasser, Licht, Luft und passende Temperaturen zum Wachsen. Mit ihren Wurzeln nehmen sie Wasser auf.",
+      "example": "Eine Pflanze am Fenster bekommt Licht. Gieße sie regelmäßig."
+    }
+  ],
+  "number": 1,
+  "date": "2026-11-09"
+}

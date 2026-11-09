@@ -1,0 +1,9 @@
+{
+  "id": "geographie-test-1",
+  "subjectId": "geographie",
+  "title": "Mein erster Wissenscheck",
+  "description": "Ein kurzer Beispieltest zu deinen ersten beiden Kursen. Du kannst ihn mehrmals versuchen.",
+  "durationMinutes": 5,
+  "exerciseIds": ["geographie-1-exercise", "geographie-2-exercise"],
+  "isSample": true
+}

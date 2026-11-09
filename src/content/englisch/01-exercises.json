@@ -1,0 +1,15 @@
+[
+  {
+    "id": "englisch-1-exercise",
+    "lessonId": "englisch-1",
+    "question": "How do you introduce yourself as Tom?",
+    "options": [
+      "My name is Tom.",
+      "Your name is Tom.",
+      "I like Tom.",
+      "Goodbye Tom."
+    ],
+    "answerIndex": 0,
+    "explanation": "Say “My name is Tom.” to introduce yourself. You can then ask “How are you?”"
+  }
+]

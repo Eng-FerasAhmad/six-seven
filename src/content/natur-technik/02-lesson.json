@@ -1,0 +1,16 @@
+{
+  "id": "natur-technik-2",
+  "subjectId": "natur-technik",
+  "title": "Forschen mit allen Sinnen",
+  "description": "Beobachte deine Umwelt.",
+  "minutes": 7,
+  "sections": [
+    {
+      "title": "Unsere Sinne",
+      "text": "Mit Augen, Ohren, Nase, Zunge und Haut nehmen wir unsere Umwelt wahr. Beim Forschen beobachten wir genau. Probiere im Experiment niemals unbekannte Stoffe!",
+      "example": "Mit der Haut spürst du, ob etwas warm oder kalt ist."
+    }
+  ],
+  "number": 2,
+  "date": "2026-11-09"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "englisch-2-exercise",
+    "lessonId": "englisch-2",
+    "question": "Which number is four?",
+    "options": ["2", "3", "4", "5"],
+    "answerIndex": 2,
+    "explanation": "Count with me: one (1), two (2), three (3), four (4), five (5). Four is 4."
+  }
+]

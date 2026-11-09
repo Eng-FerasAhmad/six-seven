@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 64 64" role="img" aria-label="Six Seeeven 67 favicon">
+<defs><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00DDF2"/><stop offset="1" stop-color="#D51EFF"/></linearGradient></defs>
+<g fill="#FFD600"><path d="M8 12 15 20" stroke="#FFD600" stroke-width="5" stroke-linecap="round"/><path d="M20 6 23 16" stroke="#FFD600" stroke-width="5" stroke-linecap="round"/><path d="M56 12 49 20" stroke="#FFD600" stroke-width="5" stroke-linecap="round"/><path d="M44 6 41 16" stroke="#FFD600" stroke-width="5" stroke-linecap="round"/></g>
+<text x="32" y="49" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="39" font-weight="900" letter-spacing="-3" fill="#FFFFFF" stroke="url(#edge)" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">67</text>
+<text x="32" y="49" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="39" font-weight="900" letter-spacing="-3" fill="#FFFFFF" stroke="#08083D" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke fill">67</text>
+</svg>

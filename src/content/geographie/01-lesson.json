@@ -1,0 +1,16 @@
+{
+  "id": "geographie-1",
+  "subjectId": "geographie",
+  "title": "Unsere Himmelsrichtungen",
+  "description": "Finde deinen Weg.",
+  "minutes": 6,
+  "sections": [
+    {
+      "title": "Orientierung",
+      "text": "Die vier Haupthimmelsrichtungen sind Norden, Osten, Süden und Westen. Auf vielen Karten ist Norden oben. Eine Windrose zeigt die Richtungen.",
+      "example": "Merksatz: Nie Ohne Seife Waschen."
+    }
+  ],
+  "number": 1,
+  "date": "2026-11-09"
+}

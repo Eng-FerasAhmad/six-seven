@@ -1,0 +1,10 @@
+[
+  {
+    "id": "mathematik-2-exercise",
+    "lessonId": "mathematik-2",
+    "question": "Was ist 38 + 12?",
+    "options": ["40", "50", "60", "48"],
+    "answerIndex": 1,
+    "explanation": "Du darfst Summanden vertauschen. Suche Zahlen, die zusammen einen vollen Zehner ergeben."
+  }
+]

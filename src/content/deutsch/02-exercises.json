@@ -1,0 +1,10 @@
+[
+  {
+    "id": "deutsch-2-exercise",
+    "lessonId": "deutsch-2",
+    "question": "Welches Wort ist ein Verb?",
+    "options": ["Tisch", "springen", "schön", "Blume"],
+    "answerIndex": 1,
+    "explanation": "Verben beschreiben Tätigkeiten oder Zustände. Du kannst sie an eine Person anpassen."
+  }
+]

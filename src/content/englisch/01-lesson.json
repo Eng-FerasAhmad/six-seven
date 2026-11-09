@@ -1,0 +1,16 @@
+{
+  "id": "englisch-1",
+  "subjectId": "englisch",
+  "title": "Hello, new friends!",
+  "description": "Introduce yourself and make new friends.",
+  "minutes": 6,
+  "sections": [
+    {
+      "title": "Introducing yourself",
+      "text": "Say “My name is …” to introduce yourself. Ask “How are you?” to find out how someone is feeling.",
+      "example": "Hello! My name is Mia. How are you?"
+    }
+  ],
+  "number": 1,
+  "date": "2026-11-09"
+}

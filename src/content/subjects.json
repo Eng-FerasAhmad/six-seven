@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mathematik",
+    "name": "Mathematik",
+    "subtitle": "Mit Zahlen die Welt verstehen",
+    "color": "blue",
+    "icon": "Calculator"
+  },
+  {
+    "id": "deutsch",
+    "name": "Deutsch",
+    "subtitle": "Deine Ideen. Deine Worte.",
+    "color": "purple",
+    "icon": "BookOpen"
+  },
+  {
+    "id": "englisch",
+    "name": "Englisch",
+    "subtitle": "A little English, a big adventure.",
+    "color": "orange",
+    "icon": "Languages"
+  },
+  {
+    "id": "natur-technik",
+    "name": "Natur & Technik",
+    "subtitle": "Kleine Fragen, große Entdeckungen.",
+    "color": "green",
+    "icon": "Sprout"
+  },
+  {
+    "id": "geographie",
+    "name": "Geographie",
+    "subtitle": "Dein Abenteuer rund um die Erde.",
+    "color": "pink",
+    "icon": "Globe2"
+  }
+]

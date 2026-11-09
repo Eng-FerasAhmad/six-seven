@@ -1,0 +1,10 @@
+[
+  {
+    "id": "geographie-1-exercise",
+    "lessonId": "geographie-1",
+    "question": "Welche Richtung liegt gegenüber von Norden?",
+    "options": ["Osten", "Westen", "Süden", "Norden"],
+    "answerIndex": 2,
+    "explanation": "Die vier Haupthimmelsrichtungen sind Norden, Osten, Süden und Westen. Auf vielen Karten ist Norden oben. Eine Windrose zeigt die Richtungen."
+  }
+]

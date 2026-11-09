@@ -1,0 +1,16 @@
+{
+  "id": "geographie-2",
+  "subjectId": "geographie",
+  "title": "Bayern entdecken",
+  "description": "Deine Heimat auf der Karte.",
+  "minutes": 7,
+  "sections": [
+    {
+      "title": "Bayern in Deutschland",
+      "text": "Bayern liegt im Südosten Deutschlands. Die Landeshauptstadt heißt München. Im Süden Bayerns liegen die Alpen.",
+      "example": "Die Zugspitze liegt in den Alpen und ist Deutschlands höchster Berg."
+    }
+  ],
+  "number": 2,
+  "date": "2026-11-09"
+}

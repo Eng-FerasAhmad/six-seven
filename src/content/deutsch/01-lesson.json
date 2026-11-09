@@ -1,0 +1,16 @@
+{
+  "id": "deutsch-1",
+  "subjectId": "deutsch",
+  "title": "Nomen auf der Spur",
+  "description": "Entdecke die Namenwörter.",
+  "minutes": 6,
+  "sections": [
+    {
+      "title": "Nomen erkennen",
+      "text": "Nomen bezeichnen Menschen, Tiere, Pflanzen, Dinge und Gedanken. Du schreibst sie groß. Oft passt ein Artikel davor: der, die oder das.",
+      "example": "der Baum, die Freude, das Kind"
+    }
+  ],
+  "number": 1,
+  "date": "2026-11-09"
+}

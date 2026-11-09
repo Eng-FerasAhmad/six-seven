@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mathematik-1-exercise",
+    "lessonId": "mathematik-1",
+    "question": "Welchen Wert hat die 7 in 2 735?",
+    "options": ["7", "70", "700", "7 000"],
+    "answerIndex": 2,
+    "explanation": "Die 7 steht an der Hunderterstelle. Deshalb hat sie in 2 735 den Wert 700.",
+    "visual": {
+      "kind": "place-value",
+      "number": 2735,
+      "highlightPlace": 100
+    }
+  }
+]

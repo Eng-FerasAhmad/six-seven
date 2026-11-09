@@ -1,0 +1,10 @@
+[
+  {
+    "id": "geographie-2-exercise",
+    "lessonId": "geographie-2",
+    "question": "Wie heißt die Landeshauptstadt von Bayern?",
+    "options": ["Berlin", "Nürnberg", "München", "Augsburg"],
+    "answerIndex": 2,
+    "explanation": "Bayern liegt im Südosten Deutschlands. Die Landeshauptstadt heißt München. Im Süden Bayerns liegen die Alpen."
+  }
+]

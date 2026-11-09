@@ -1,0 +1,9 @@
+{
+  "id": "deutsch-test-1",
+  "subjectId": "deutsch",
+  "title": "Mein erster Wissenscheck",
+  "description": "Ein kurzer Beispieltest zu deinen ersten beiden Kursen. Du kannst ihn mehrmals versuchen.",
+  "durationMinutes": 5,
+  "exerciseIds": ["deutsch-1-exercise", "deutsch-2-exercise"],
+  "isSample": true
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mathematik-1",
+  "subjectId": "mathematik",
+  "title": "Stellenwerte entdecken",
+  "description": "Jede Ziffer hat ihren Platz.",
+  "minutes": 6,
+  "sections": [
+    {
+      "title": "Stellenwertsystem",
+      "text": "Unser Zahlensystem besteht aus Einern, Zehnern, Hundertern und Tausendern. Der Wert einer Ziffer hängt von ihrem Platz ab.",
+      "example": "In 3 452 steht die 4 für 400."
+    }
+  ],
+  "number": 1,
+  "date": "2026-11-09",
+  "activity": {
+    "kind": "place-value",
+    "title": "Zahlen bauen",
+    "instruction": "Wähle eine Ziffer. Mit + und − änderst du ihren Wert.",
+    "initialNumber": 3452,
+    "challengeTitle": "Baue die Zahl",
+    "challenges": [4020, 7305, 1678]
+  }
+}

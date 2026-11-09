@@ -1,0 +1,37 @@
+{
+  "id": "mathematik-2",
+  "subjectId": "mathematik",
+  "title": "Clever addieren",
+  "description": "Zusammenrechnen leicht gemacht.",
+  "minutes": 7,
+  "sections": [
+    {
+      "title": "Addition",
+      "text": "Du darfst Summanden vertauschen. Suche Zahlen, die zusammen einen vollen Zehner ergeben.",
+      "example": "27 + 13 = 40"
+    }
+  ],
+  "number": 2,
+  "date": "2026-11-09",
+  "activity": {
+    "kind": "addition",
+    "title": "Spring zum nächsten Zehner",
+    "instruction": "Verschiebe die Regler. Rechne zuerst bis zum nächsten Zehner und dann den Rest dazu.",
+    "initialFirst": 27,
+    "initialSecond": 13,
+    "examples": [
+      {
+        "first": 27,
+        "second": 13
+      },
+      {
+        "first": 38,
+        "second": 12
+      },
+      {
+        "first": 16,
+        "second": 7
+      }
+    ]
+  }
+}

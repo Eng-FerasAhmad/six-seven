@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap");
+:root {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  color: #25233e;
+  background: #f8f9fd;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  --bg: #f8f9fd;
+  --surface: #fff;
+  --text: #25233e;
+  --muted: #858496;
+  --border: #eaeaf2;
+  --active: #efedff;
+  --purple: #7360d8;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111123;
+  --surface: #1b1b32;
+  --text: #f2efff;
+  --muted: #aaa7c3;
+  --border: #303047;
+  --active: #302951;
+  --purple: #b5a4ff;
+  background: var(--bg);
+  color: var(--text);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 360px;
+}
+button,
+input {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #0879f5;
+  outline-offset: 4px;
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+button {
+  color: inherit;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+button {
+  touch-action: manipulation;
+}
+button,
+.subject-card {
+  transition:
+    background 0.2s,
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+button:hover:not(:disabled) {
+  filter: brightness(0.98);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+:root[data-font-size="1"] {
+  font-size: 18px;
+}
+:root[data-font-size="2"] {
+  font-size: 20px;
+}

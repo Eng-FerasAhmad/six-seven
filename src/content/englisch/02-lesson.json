@@ -1,0 +1,16 @@
+{
+  "id": "englisch-2",
+  "subjectId": "englisch",
+  "title": "One, two, three",
+  "description": "Let’s count in English.",
+  "minutes": 7,
+  "sections": [
+    {
+      "title": "Numbers",
+      "text": "The first five numbers are one, two, three, four and five. Say them out loud and count things in your room.",
+      "example": "I have three books."
+    }
+  ],
+  "number": 2,
+  "date": "2026-11-09"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "deutsch-2",
+  "subjectId": "deutsch",
+  "title": "Verben in Bewegung",
+  "description": "Wörter, die etwas tun.",
+  "minutes": 7,
+  "sections": [
+    {
+      "title": "Verben erkennen",
+      "text": "Verben beschreiben Tätigkeiten oder Zustände. Du kannst sie an eine Person anpassen.",
+      "example": "ich lerne, du lernst, wir lernen"
+    }
+  ],
+  "number": 2,
+  "date": "2026-11-09"
+}

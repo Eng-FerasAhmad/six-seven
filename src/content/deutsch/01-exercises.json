@@ -1,0 +1,10 @@
+[
+  {
+    "id": "deutsch-1-exercise",
+    "lessonId": "deutsch-1",
+    "question": "Welches Wort ist ein Nomen?",
+    "options": ["laufen", "grün", "Freundschaft", "schnell"],
+    "answerIndex": 2,
+    "explanation": "Nomen bezeichnen Menschen, Tiere, Pflanzen, Dinge und Gedanken. Du schreibst sie groß. Oft passt ein Artikel davor: der, die oder das."
+  }
+]
