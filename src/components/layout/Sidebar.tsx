@@ -33,7 +33,7 @@ export function Sidebar({
           className={!showProgress ? "nav-item active" : "nav-item"}
           onClick={onHome}
         >
-          <House size={20} /> {t("rebe lernwelt", "My learning world")}
+          <House size={20} /> {t("Reber lernwelt", "My learning world")}
         </button>
         <button
           className={showProgress ? "nav-item active" : "nav-item"}
