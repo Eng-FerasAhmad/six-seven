@@ -1,17 +1,20 @@
+import type { usePreferences } from "../../hooks/usePreferences";
 import logo from "../../../brand/logo.png";
 import { useLanguage } from "../../i18n/useLanguage";
 import { Moon, Sun } from "lucide-react";
-import { fontSizes, usePreferences } from "../../hooks/usePreferences";
+import { fontSizes } from "../../hooks/usePreferences";
 export function TopBar({
   onHome,
   mobile,
+  preferences,
 }: {
   onHome: () => void;
   mobile: boolean;
+  preferences: ReturnType<typeof usePreferences>;
 }) {
   const { t } = useLanguage();
   const { fontSize, dark, decreaseFontSize, increaseFontSize, toggleTheme } =
-    usePreferences();
+    preferences;
   return (
     <header className="topbar">
       {mobile && (

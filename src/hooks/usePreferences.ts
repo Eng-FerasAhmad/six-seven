@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useStoredState } from "./useStoredState";
 
 export const fontSizes = ["Normal", "Groß", "Sehr groß"] as const;
@@ -16,11 +16,23 @@ export function usePreferences() {
     0,
     parseFontSize,
   );
-  const [dark, setDark] = useStoredState(
+  const [themeOverride, setThemeOverride] = useStoredState<boolean | null>(
     "six-theme",
-    false,
-    (value) => value === true,
+    null,
+    (value) => (typeof value === "boolean" ? value : null),
   );
+  const [systemDark, setSystemDark] = useState(
+    () => window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false,
+  );
+  useEffect(() => {
+    const media = window.matchMedia?.("(prefers-color-scheme: dark)");
+    if (!media) return;
+    const update = () => setSystemDark(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
+  const dark = themeOverride ?? systemDark;
   useEffect(() => {
     document.documentElement.dataset.fontSize = String(fontSize);
   }, [fontSize]);
@@ -33,6 +45,6 @@ export function usePreferences() {
     decreaseFontSize: () => setFontSize((size) => Math.max(0, size - 1)),
     increaseFontSize: () =>
       setFontSize((size) => Math.min(fontSizes.length - 1, size + 1)),
-    toggleTheme: () => setDark((value) => !value),
+    toggleTheme: () => setThemeOverride(!dark),
   };
 }

@@ -40,7 +40,7 @@ Courses present their lesson first, then the exercises in sequence. Restart the 
 - Interactive maths courses: place-value blocks, digit controls, number-building tasks, and addition with sliders and a number line. Activity configuration lives in each lesson JSON under `activity`.
 - Supportive feedback and retries without penalties.
 - Ten learning stars for each uniquely completed exercise.
-- Light/dark mode and exercise progress saved in localStorage on the current browser/device.
+- Theme follows the device by default, including changes during tests. A manually selected light/dark theme is saved as an override. Exercise progress is saved in localStorage on the current browser/device.
 - Original supplied branding in `brand/`, with the favicon in `public/favicon.svg`.
 - Keyboard-accessible controls, labeled answers and reduced-motion support.
 

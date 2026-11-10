@@ -1,3 +1,4 @@
+import { usePreferences } from "./hooks/usePreferences";
 import { MobileNavigation } from "./components/layout/MobileNavigation";
 import { useIsMobile } from "./hooks/useIsMobile";
 import { LanguageProvider } from "./i18n/LanguageProvider";
@@ -26,6 +27,7 @@ type Page =
 
 export default function App() {
   const isMobile = useIsMobile();
+  const preferences = usePreferences();
   const [page, setPage] = useState<Page>({ kind: "overview", subjectId: null });
   const { completed, completeExercise } = useLearningProgress();
   const testProgress = useTestProgress();
@@ -91,7 +93,7 @@ export default function App() {
           />
         )}
         <div className="main-shell">
-          <TopBar onHome={goHome} mobile={isMobile} />
+          <TopBar onHome={goHome} mobile={isMobile} preferences={preferences} />
           <main>
             {page.kind === "progress" ? (
               <ProgressPage
