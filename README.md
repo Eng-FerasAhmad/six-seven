@@ -32,6 +32,7 @@ Courses present their lesson first, then the exercises in sequence. Restart the 
 - Mobile bottom navigation, a modal subject picker, full-width readable content and larger touch targets; desktop keeps the sidebar.
 - Subject pages with separate courses and tests, dated course cards, lessons, exercises and achievements.
 - Timed tests with saved answers, automatic submission, result review and repeat attempts.
+- Test PDFs can be downloaded before starting or after finishing a test. A4 exports include questions, choices and writing space without solutions; English tests export in English. PDFs are generated locally in the browser.
 - Active tests fill the screen and hide app navigation, including after reload. Tests fill the browser viewport without activating browser fullscreen. A native beforeunload warning is registered for active tests; browsers control whether it appears and its wording.
 - Tests can be cancelled after confirmation. Cancellation discards the current attempt without changing earlier results.
 - Dates use dd.mm.yyyy.

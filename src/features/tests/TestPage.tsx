@@ -1,6 +1,7 @@
+import { DownloadTestPdf } from "./DownloadTestPdf";
 import { useLanguage } from "../../i18n/useLanguage";
 import { useEffect, useState } from "react";
-import { ArrowLeft, Clock3 } from "lucide-react";
+import { ArrowLeft, Clock3, Play } from "lucide-react";
 import { exercises } from "../../content";
 import type { TestDefinition, TestResult, TestSession } from "../../types";
 interface Props {
@@ -162,11 +163,15 @@ export function TestPage({
               `${test.durationMinutes} minutes · ${questions.length} questions. You can try the test again later.`,
             )}
           </p>
-          <button className="primary" onClick={() => onStart(test.id)}>
-            {latest
-              ? t("Noch einmal starten", "Try again")
-              : t("Test starten", "Start test")}
-          </button>
+          <div className="test-actions">
+            <button className="primary" onClick={() => onStart(test.id)}>
+              <Play size={18} />
+              {latest
+                ? t("Noch einmal starten", "Try again")
+                : t("Test starten", "Start test")}
+            </button>
+            <DownloadTestPdf test={test} />
+          </div>
           {latest && (
             <section className="test-review">
               <h2>{t("Deine Antworten", "Your answers")}</h2>
