@@ -85,7 +85,6 @@ export default function App() {
             subject={subjectId}
             showProgress={page.kind === "progress"}
             showSettings={page.kind === "settings"}
-            onSettings={() => setPage({ kind: "settings" })}
             onHome={goHome}
             onProgress={() => setPage({ kind: "progress" })}
             onSubject={openSubject}
@@ -102,7 +101,13 @@ export default function App() {
           />
         )}
         <div className="main-shell">
-          <TopBar onHome={goHome} mobile={isMobile} preferences={preferences} />
+          <TopBar
+            onHome={goHome}
+            mobile={isMobile}
+            preferences={preferences}
+            onSettings={() => setPage({ kind: "settings" })}
+            showSettings={page.kind === "settings"}
+          />
           <main>
             {page.kind === "settings" ? (
               <SettingsPage />

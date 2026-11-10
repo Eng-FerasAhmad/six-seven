@@ -62,7 +62,16 @@ describe("mobile navigation", () => {
     expect(
       screen.queryByRole("heading", { name: "Fortschritt sichern" }),
     ).not.toBeInTheDocument();
-    await user.click(screen.getByRole("button", { name: "Einstellungen" }));
+    expect(
+      within(
+        screen.getByRole("navigation", { name: "Hauptnavigation" }),
+      ).queryByRole("button", { name: "Einstellungen" }),
+    ).not.toBeInTheDocument();
+    const settings = within(screen.getByRole("banner")).getByRole("button", {
+      name: "Einstellungen",
+    });
+    expect(settings).toHaveTextContent("");
+    await user.click(settings);
     expect(
       screen.getByRole("heading", { name: "Einstellungen" }),
     ).toBeInTheDocument();

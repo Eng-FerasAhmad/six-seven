@@ -1,14 +1,18 @@
 import type { usePreferences } from "../../hooks/usePreferences";
 import logo from "../../../brand/logo.png";
 import { useLanguage } from "../../i18n/useLanguage";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Settings, Sun } from "lucide-react";
 import { fontSizes } from "../../hooks/usePreferences";
 export function TopBar({
   onHome,
+  onSettings,
+  showSettings,
   mobile,
   preferences,
 }: {
   onHome: () => void;
+  onSettings: () => void;
+  showSettings: boolean;
   mobile: boolean;
   preferences: ReturnType<typeof usePreferences>;
 }) {
@@ -69,6 +73,17 @@ export function TopBar({
         >
           {dark ? <Sun size={19} /> : <Moon size={19} />}
         </button>
+        {mobile && (
+          <button
+            type="button"
+            className="theme-toggle settings-toggle"
+            onClick={onSettings}
+            aria-label={t("Einstellungen", "Settings")}
+            aria-current={showSettings ? "page" : undefined}
+          >
+            <Settings size={19} />
+          </button>
+        )}
       </div>
     </header>
   );

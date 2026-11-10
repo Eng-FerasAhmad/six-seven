@@ -6,7 +6,7 @@
   inset: auto 0 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 6px;
   padding: 8px max(12px, env(safe-area-inset-right))
     calc(8px + env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
@@ -472,4 +472,9 @@
     font-size: 1em;
     margin-left: 0.15em;
   }
+}
+
+.settings-toggle[aria-current="page"] {
+  background: var(--active);
+  color: var(--purple);
 }
