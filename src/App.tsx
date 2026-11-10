@@ -27,7 +27,7 @@ type Page =
 export default function App() {
   const isMobile = useIsMobile();
   const [page, setPage] = useState<Page>({ kind: "overview", subjectId: null });
-  const { completed, nextLesson, completeExercise } = useLearningProgress();
+  const { completed, completeExercise } = useLearningProgress();
   const testProgress = useTestProgress();
   const { attempts, recordAttempt } = useCourseHistory();
   const subjectId = page.kind === "progress" ? null : page.subjectId;
@@ -136,7 +136,7 @@ export default function App() {
             ) : (
               <OverviewPage
                 completed={completed}
-                onStart={() => openLesson(nextLesson)}
+                onStart={() => openSubject("deutsch")}
                 onSubject={openSubject}
               />
             )}

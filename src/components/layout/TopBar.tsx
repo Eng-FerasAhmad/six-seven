@@ -24,34 +24,36 @@ export function TopBar({
         </button>
       )}
       <div className="header-actions">
-        <div
-          className="font-size-control"
-          role="group"
-          aria-label={t("Schriftgröße", "Text size")}
-        >
-          <button
-            type="button"
-            aria-label={t("Schrift verkleinern", "Decrease text size")}
-            disabled={fontSize === 0}
-            onClick={decreaseFontSize}
+        {!mobile && (
+          <div
+            className="font-size-control"
+            role="group"
+            aria-label={t("Schriftgröße", "Text size")}
           >
-            A−
-          </button>
-          <span aria-live="polite" aria-atomic="true">
-            {t(
-              fontSizes[fontSize],
-              ["Normal", "Large", "Extra large"][fontSize],
-            )}
-          </span>
-          <button
-            type="button"
-            aria-label={t("Schrift vergrößern", "Increase text size")}
-            disabled={fontSize === fontSizes.length - 1}
-            onClick={increaseFontSize}
-          >
-            A+
-          </button>
-        </div>
+            <button
+              type="button"
+              aria-label={t("Schrift verkleinern", "Decrease text size")}
+              disabled={fontSize === 0}
+              onClick={decreaseFontSize}
+            >
+              A−
+            </button>
+            <span aria-live="polite" aria-atomic="true">
+              {t(
+                fontSizes[fontSize],
+                ["Normal", "Large", "Extra large"][fontSize],
+              )}
+            </span>
+            <button
+              type="button"
+              aria-label={t("Schrift vergrößern", "Increase text size")}
+              disabled={fontSize === fontSizes.length - 1}
+              onClick={increaseFontSize}
+            >
+              A+
+            </button>
+          </div>
+        )}
         <span className="class-badge">{t("5. Klasse", "Grade 5")}</span>
         <button
           className="theme-toggle"

@@ -39,7 +39,7 @@ export function Sidebar({
           className={showProgress ? "nav-item active" : "nav-item"}
           onClick={onProgress}
         >
-          <Trophy size={20} /> {t("Reber erlog", "My achievements")}{" "}
+          <Trophy size={20} /> {t("Reber Erfolg", "My achievements")}{" "}
           <span className="tiny-star">✦</span>
         </button>
       </nav>

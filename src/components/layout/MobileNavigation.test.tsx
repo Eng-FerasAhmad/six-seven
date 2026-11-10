@@ -38,6 +38,12 @@ describe("mobile navigation", () => {
     render(<App />);
     expect(screen.queryByRole("complementary")).not.toBeInTheDocument();
     expect(
+      screen.queryByRole("button", { name: "Schrift vergrößern" }),
+    ).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole("button", { name: "Schrift verkleinern" }),
+    ).not.toBeInTheDocument();
+    expect(
       screen.getByRole("button", { name: "six seeeven Startseite" }),
     ).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Fächer" }));
@@ -49,7 +55,7 @@ describe("mobile navigation", () => {
     expect(
       screen.getByRole("heading", { name: "Mathematik" }),
     ).toBeInTheDocument();
-    await user.click(screen.getByRole("button", { name: "Reber erlog" }));
+    await user.click(screen.getByRole("button", { name: "Reber Erfolg" }));
     expect(
       screen.getByRole("heading", { name: /Schau, was du schon kannst/ }),
     ).toBeInTheDocument();

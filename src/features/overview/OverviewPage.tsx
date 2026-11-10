@@ -11,7 +11,7 @@ export function OverviewPage({ completed, onStart, onSubject }: Props) {
   return (
     <>
       <div className="heading-row">
-        <h1>
+        <h1 className="welcome-title">
           Hey, schön, dass du da bist! <span>👋</span>
         </h1>
       </div>

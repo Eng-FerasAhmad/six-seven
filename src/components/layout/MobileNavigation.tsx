@@ -64,7 +64,7 @@ export function MobileNavigation({
           onClick={onProgress}
         >
           <Trophy size={22} />
-          <span>{t("Reber erlog", "My achievements")}</span>
+          <span>{t("Reber Erfolg", "My achievements")}</span>
         </button>
       </nav>
       <dialog

@@ -164,7 +164,7 @@ describe("page navigation", () => {
         screen.getByRole("button", { name: /six seeeven (Startseite|home)/ }),
       );
     }
-    await user.click(screen.getByRole("button", { name: /Reber erlog/ }));
+    await user.click(screen.getByRole("button", { name: /Reber Erfolg/ }));
     expect(
       screen.getByRole("heading", { name: /Schau, was du schon kannst/ }),
     ).toBeInTheDocument();
@@ -212,7 +212,7 @@ describe("subject courses and tests", () => {
     expect(screen.getByRole("status")).toHaveTextContent(
       "1 von 2 richtig · 50 %",
     );
-    await user.click(screen.getByRole("button", { name: /Reber erlog/ }));
+    await user.click(screen.getByRole("button", { name: /Reber Erfolg/ }));
     expect(screen.getByRole("table")).toHaveTextContent("50 %");
     expect(screen.getByRole("table")).toHaveTextContent("Erster Versuch");
   });
@@ -332,5 +332,19 @@ describe("English subject language", () => {
       screen.getByRole("heading", { name: "Mathematik" }),
     ).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Kurse" })).toBeInTheDocument();
+  });
+});
+
+describe("welcome action", () => {
+  it("opens the Deutsch subject overview", async () => {
+    render(<App />);
+    await userEvent.click(screen.getByRole("button", { name: "Los geht’s" }));
+    expect(
+      screen.getByRole("heading", { name: "Deutsch" }),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Kurse" })).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: /Nomen auf der Spur/ }),
+    ).toBeInTheDocument();
   });
 });
