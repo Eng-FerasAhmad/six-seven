@@ -348,3 +348,27 @@ describe("welcome action", () => {
     ).toBeInTheDocument();
   });
 });
+
+describe("settings navigation", () => {
+  it("keeps backup controls in settings instead of achievements", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(screen.getByRole("button", { name: /Reber Erfolg/ }));
+    expect(
+      screen.queryByRole("heading", { name: "Fortschritt sichern" }),
+    ).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Einstellungen" }));
+    expect(
+      screen.getByRole("heading", { name: "Einstellungen" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Sicherung herunterladen" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Sicherung laden" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Einstellungen" }),
+    ).toHaveAttribute("aria-current", "page");
+  });
+});

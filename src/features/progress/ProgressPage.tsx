@@ -1,4 +1,3 @@
-import { ProgressBackup } from "./ProgressBackup";
 import { BookOpen, ChevronRight, Star, Trophy } from "lucide-react";
 import { exercises, lessons, subjects } from "../../content";
 import { StudyHistory } from "./StudyHistory";
@@ -68,7 +67,6 @@ export function ProgressPage({
         })}
       </section>
       <StudyHistory attempts={attempts} results={results} />
-      <ProgressBackup />
     </>
   );
 }

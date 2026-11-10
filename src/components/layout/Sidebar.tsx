@@ -1,5 +1,5 @@
 import { useLanguage } from "../../i18n/useLanguage";
-import { House, Trophy } from "lucide-react";
+import { House, Settings, Trophy } from "lucide-react";
 import { subjects } from "../../content";
 import { subjectIcons } from "../subjects/subjectIcons";
 import type { SubjectId } from "../../types";
@@ -7,6 +7,8 @@ import logo from "../../../brand/logo.png";
 interface Props {
   subject: SubjectId | null;
   showProgress: boolean;
+  showSettings: boolean;
+  onSettings: () => void;
   onHome: () => void;
   onProgress: () => void;
   onSubject: (id: SubjectId) => void;
@@ -14,6 +16,8 @@ interface Props {
 export function Sidebar({
   subject,
   showProgress,
+  showSettings,
+  onSettings,
   onHome,
   onProgress,
   onSubject,
@@ -30,7 +34,9 @@ export function Sidebar({
       </button>
       <nav aria-label={t("Hauptnavigation", "Main navigation")}>
         <button
-          className={!showProgress ? "nav-item active" : "nav-item"}
+          className={
+            !showProgress && !showSettings ? "nav-item active" : "nav-item"
+          }
           onClick={onHome}
         >
           <House size={20} /> {t("Reber lernwelt", "My learning world")}
@@ -58,6 +64,19 @@ export function Sidebar({
             </button>
           );
         })}
+      </nav>
+      <nav
+        className="sidebar-settings"
+        aria-label={t("Einstellungen", "Settings")}
+      >
+        <button
+          className={`nav-item ${showSettings ? "active" : ""}`}
+          onClick={onSettings}
+          aria-current={showSettings ? "page" : undefined}
+        >
+          <Settings size={20} />
+          {t("Einstellungen", "Settings")}
+        </button>
       </nav>
     </aside>
   );

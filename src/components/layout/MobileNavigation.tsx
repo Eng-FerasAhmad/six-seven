@@ -1,5 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import { BookOpen, ChevronRight, House, Trophy, X } from "lucide-react";
+import {
+  BookOpen,
+  ChevronRight,
+  House,
+  Settings,
+  Trophy,
+  X,
+} from "lucide-react";
 import { useLanguage } from "../../i18n/useLanguage";
 import { subjects } from "../../content";
 import { subjectIcons } from "../subjects/subjectIcons";
@@ -7,6 +14,8 @@ import type { SubjectId } from "../../types";
 interface Props {
   subject: SubjectId | null;
   showProgress: boolean;
+  showSettings: boolean;
+  onSettings: () => void;
   onHome: () => void;
   onProgress: () => void;
   onSubject: (id: SubjectId) => void;
@@ -14,6 +23,8 @@ interface Props {
 export function MobileNavigation({
   subject,
   showProgress,
+  showSettings,
+  onSettings,
   onHome,
   onProgress,
   onSubject,
@@ -44,7 +55,9 @@ export function MobileNavigation({
         aria-label={t("Hauptnavigation", "Main navigation")}
       >
         <button
-          aria-current={!subject && !showProgress ? "page" : undefined}
+          aria-current={
+            !subject && !showProgress && !showSettings ? "page" : undefined
+          }
           onClick={onHome}
         >
           <House size={22} />
@@ -65,6 +78,13 @@ export function MobileNavigation({
         >
           <Trophy size={22} />
           <span>{t("Reber Erfolg", "My achievements")}</span>
+        </button>
+        <button
+          aria-current={showSettings ? "page" : undefined}
+          onClick={onSettings}
+        >
+          <Settings size={22} />
+          <span>{t("Einstellungen", "Settings")}</span>
         </button>
       </nav>
       <dialog

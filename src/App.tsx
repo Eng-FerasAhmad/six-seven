@@ -1,3 +1,4 @@
+import { SettingsPage } from "./features/settings/SettingsPage";
 import { usePreferences } from "./hooks/usePreferences";
 import { MobileNavigation } from "./components/layout/MobileNavigation";
 import { useIsMobile } from "./hooks/useIsMobile";
@@ -23,6 +24,7 @@ type Page =
   | { kind: "overview"; subjectId: SubjectId | null }
   | { kind: "lesson"; lesson: Lesson; subjectId: SubjectId | null }
   | { kind: "progress" }
+  | { kind: "settings" }
   | { kind: "test"; test: TestDefinition; subjectId: SubjectId };
 
 export default function App() {
@@ -32,7 +34,10 @@ export default function App() {
   const { completed, completeExercise } = useLearningProgress();
   const testProgress = useTestProgress();
   const { attempts, recordAttempt } = useCourseHistory();
-  const subjectId = page.kind === "progress" ? null : page.subjectId;
+  const subjectId =
+    page.kind === "progress" || page.kind === "settings"
+      ? null
+      : page.subjectId;
   const currentSubject = subjects.find((subject) => subject.id === subjectId);
   const goHome = () => setPage({ kind: "overview", subjectId: null });
   const openSubject = (id: SubjectId) =>
@@ -79,6 +84,8 @@ export default function App() {
           <MobileNavigation
             subject={subjectId}
             showProgress={page.kind === "progress"}
+            showSettings={page.kind === "settings"}
+            onSettings={() => setPage({ kind: "settings" })}
             onHome={goHome}
             onProgress={() => setPage({ kind: "progress" })}
             onSubject={openSubject}
@@ -87,6 +94,8 @@ export default function App() {
           <Sidebar
             subject={subjectId}
             showProgress={page.kind === "progress"}
+            showSettings={page.kind === "settings"}
+            onSettings={() => setPage({ kind: "settings" })}
             onHome={goHome}
             onProgress={() => setPage({ kind: "progress" })}
             onSubject={openSubject}
@@ -95,7 +104,9 @@ export default function App() {
         <div className="main-shell">
           <TopBar onHome={goHome} mobile={isMobile} preferences={preferences} />
           <main>
-            {page.kind === "progress" ? (
+            {page.kind === "settings" ? (
+              <SettingsPage />
+            ) : page.kind === "progress" ? (
               <ProgressPage
                 completed={completed}
                 onSubject={openSubject}

@@ -59,6 +59,19 @@ describe("mobile navigation", () => {
     expect(
       screen.getByRole("heading", { name: /Schau, was du schon kannst/ }),
     ).toBeInTheDocument();
+    expect(
+      screen.queryByRole("heading", { name: "Fortschritt sichern" }),
+    ).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Einstellungen" }));
+    expect(
+      screen.getByRole("heading", { name: "Einstellungen" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Sicherung herunterladen" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Einstellungen" }),
+    ).toHaveAttribute("aria-current", "page");
   });
   it("closes subjects with Escape and keeps test navigation hidden", async () => {
     mobileBrowser();
