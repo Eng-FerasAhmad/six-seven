@@ -1,3 +1,4 @@
+import { useCloudSync } from "./features/icloud/useCloudSync";
 import { SettingsPage } from "./features/settings/SettingsPage";
 import { usePreferences } from "./hooks/usePreferences";
 import { MobileNavigation } from "./components/layout/MobileNavigation";
@@ -28,6 +29,7 @@ type Page =
   | { kind: "test"; test: TestDefinition; subjectId: SubjectId };
 
 export default function App() {
+  const cloudSync = useCloudSync();
   const isMobile = useIsMobile();
   const preferences = usePreferences();
   const [page, setPage] = useState<Page>({ kind: "overview", subjectId: null });
@@ -110,7 +112,7 @@ export default function App() {
           />
           <main>
             {page.kind === "settings" ? (
-              <SettingsPage />
+              <SettingsPage cloudSync={cloudSync} />
             ) : page.kind === "progress" ? (
               <ProgressPage
                 completed={completed}

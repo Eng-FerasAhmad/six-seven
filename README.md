@@ -45,7 +45,7 @@ Courses present their lesson first, then the exercises in sequence. Restart the 
 - Original supplied branding in `brand/`, with the favicon in `public/favicon.svg`.
 - Keyboard-accessible controls, labeled answers and reduced-motion support.
 
-Progress, answers, test deadlines and attempt history are stored in this browser only. A test deadline continues while you leave the page or close the app; an expired test is finalized when the app runs again. Clearing browser storage removes the history. No account, backend, tracking, or cloud synchronization is configured. Google Fonts provides Outfit and DM Sans with local system fallbacks.
+Progress, answers, test deadlines and attempt history are stored in this browser only. A test deadline continues while you leave the page or close the app; an expired test is finalized when the app runs again. Clearing browser storage removes the history. CloudKit synchronization is optional and requires your Apple container configuration; without it, progress stays local. No tracking is configured. Google Fonts provides Outfit and DM Sans with local system fallbacks.
 
 ## Checks
 
@@ -78,3 +78,9 @@ Expected URL: https://eng-ferasahmad.github.io/six-seven/
 This version supports one child per browser profile. Progress remains in localStorage across normal deployments on the same domain. It is not uploaded to GitHub or shared between devices. Clearing site data or using another browser will not preserve it automatically.
 
 Under **Einstellungen → Fortschritt sichern**, download a JSON backup and load it on another browser/device. Loading merges valid progress with existing progress. Keep backups outside the repository. To move progress from localhost to the published site, download it locally, open the published site, and load that file there. Imported active tests retain their original deadline.
+
+## Optional iCloud synchronization
+
+Follow [the iCloud setup guide](docs/icloud-setup.md) to create an Apple CloudKit container, private database schema and origin-restricted browser API token. The app includes an opt-in iCloud connection in Settings, offline local saving, automatic merge/retry and protection against mixing Apple accounts. Running tests and display preferences remain device-local.
+
+Copy `.env.example` to `.env.local` for development. Real Apple sign-in and cross-device behavior still require verification with your container. The automated tests use a simulated private database. Do not add Apple passwords or private keys to the project.
