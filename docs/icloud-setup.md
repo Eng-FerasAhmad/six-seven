@@ -1,6 +1,6 @@
 # Connect six seeeven to iCloud
 
-The iCloud container `iCloud.com.ferasahmad.sixseeeven`, its `LearningProgress` schema, and a development browser token have been created. The schema has been deployed to Production. Real sign-in and progress sync still need verification. Publishing is a separate step.
+The iCloud container `iCloud.com.ferasahmad.sixseeeven`, its `LearningProgress` schema, and separate Development and Production browser tokens have been created. The schema is deployed to Production. Sign-in, saving an exercise, and restoring it after clearing local progress were verified in both environments. The app is published at [six seeeven](https://eng-ferasahmad.github.io/six-seven/).
 
 CloudKit is Apple's database service inside iCloud. A **container** is the private storage space for your app. This setup uses one child’s learning history per signed-in Apple account. Use the same account when signing in on each device; Family Sharing does not automatically combine different accounts’ private databases.
 
@@ -67,7 +67,7 @@ VITE_CLOUDKIT_ENVIRONMENT=development
 6. Check that exercise stars, course history and completed test results appear.
 7. Check offline learning: disconnect temporarily, complete an exercise, then reconnect. Verify that it syncs without losing either device’s history.
 
-Real sign-in, allowed origins, permissions, production schema and two-device sync must be verified against your Apple container. Automated tests use a simulated CloudKit database; they do not establish a real iCloud connection.
+Real sign-in and save/restore in one browser were verified against your Apple container in Development and Production. A second device has not yet been tested. Automated tests use a simulated CloudKit database.
 
 ## 5. Prepare production
 
@@ -85,7 +85,7 @@ Development and production databases are separate. Test data does not automatica
 
 The deployment workflow reads these variables during the build. Without a container and token, the website continues to use local storage. These values are bundled into the app; they are not server secrets.
 
-When you are ready, request publication. Then repeat the real sign-in and two-device checks on the published URL.
+The Production build is published and its real sign-in and save/restore flow were verified. When using another device, sign in with the same Apple Account and confirm the learning history appears.
 
 ## What syncs
 
