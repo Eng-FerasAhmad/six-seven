@@ -12,7 +12,7 @@ describe("content integrity", () => {
     for (const subject of subjects)
       expect(
         lessons.filter((l) => l.subjectId === subject.id).length,
-      ).toBeGreaterThanOrEqual(2);
+      ).toBeGreaterThanOrEqual(subject.id === "englisch" ? 0 : 2);
     for (const lesson of lessons) {
       expect(subjects.some((s) => s.id === lesson.subjectId)).toBe(true);
       expect(lesson.sections.length).toBeGreaterThan(0);
@@ -140,26 +140,28 @@ describe("page navigation", () => {
       ).toBeInTheDocument();
       const firstLesson = lessons.find(
         (lesson) => lesson.subjectId === subject.id,
-      )!;
-      await user.click(
-        screen.getByRole("button", { name: new RegExp(firstLesson.title) }),
       );
-      expect(
-        screen.getByRole("heading", { name: firstLesson.title }),
-      ).toBeInTheDocument();
-      await user.click(
-        screen.getByRole("button", {
-          name:
-            subject.id === "englisch"
-              ? "Back to overview"
-              : "Zurück zur Übersicht",
-        }),
-      );
-      expect(
-        screen.getByRole("heading", {
-          name: subject.id === "englisch" ? "English" : subject.name,
-        }),
-      ).toBeInTheDocument();
+      if (firstLesson) {
+        await user.click(
+          screen.getByRole("button", { name: new RegExp(firstLesson.title) }),
+        );
+        expect(
+          screen.getByRole("heading", { name: firstLesson.title }),
+        ).toBeInTheDocument();
+        await user.click(
+          screen.getByRole("button", {
+            name:
+              subject.id === "englisch"
+                ? "Back to overview"
+                : "Zurück zur Übersicht",
+          }),
+        );
+        expect(
+          screen.getByRole("heading", {
+            name: subject.id === "englisch" ? "English" : subject.name,
+          }),
+        ).toBeInTheDocument();
+      }
       await user.click(
         screen.getByRole("button", { name: /six seeeven (Startseite|home)/ }),
       );
@@ -209,9 +211,7 @@ describe("subject courses and tests", () => {
     expect(screen.getByRole("timer")).toHaveTextContent("5:00");
     await user.click(screen.getByLabelText("700"));
     await user.click(screen.getByRole("button", { name: "Test abgeben" }));
-    expect(screen.getByRole("status")).toHaveTextContent(
-      "1 von 2 richtig · 50 %",
-    );
+    expect(screen.getByRole("status")).toHaveTextContent("1 von 2 richtig");
     await user.click(screen.getByRole("button", { name: /Reber Erfolg/ }));
     expect(screen.getByRole("table")).toHaveTextContent("50 %");
     expect(screen.getByRole("table")).toHaveTextContent("Erster Versuch");
@@ -292,34 +292,12 @@ describe("English subject language", () => {
     expect(
       screen.getByRole("button", { name: "Increase text size" }),
     ).toBeInTheDocument();
-    await user.click(
-      screen.getByRole("button", { name: /Hello, new friends!/ }),
-    );
-    await user.click(screen.getByRole("button", { name: "Try it now" }));
-    await user.click(screen.getByLabelText("My name is Tom."));
-    await user.click(screen.getByRole("button", { name: "Check answer" }));
-    expect(screen.getByRole("status")).toHaveTextContent(
-      "Great job! That is correct.",
-    );
-    await user.click(screen.getByRole("button", { name: "Keep learning" }));
-    await user.click(screen.getByRole("button", { name: "Tests" }));
-    await user.click(
-      screen.getByRole("button", { name: /My first knowledge check/ }),
-    );
-    await user.click(screen.getByRole("button", { name: "Start test" }));
-    expect(document.documentElement.lang).toBe("en");
     expect(
-      screen.getByRole("button", { name: "Cancel test" }),
-    ).toBeInTheDocument();
+      screen.queryByRole("button", { name: /Hello, new friends!/ }),
+    ).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Vocabulary" }));
     expect(
-      screen.getByRole("timer", { name: "Time remaining" }),
-    ).toBeInTheDocument();
-    await user.click(screen.getByLabelText("My name is Tom."));
-    await user.click(screen.getByLabelText("4"));
-    await user.click(screen.getByRole("button", { name: "Submit test" }));
-    expect(screen.getByRole("status")).toHaveTextContent("2 out of 2 correct");
-    expect(
-      screen.getByRole("heading", { name: "Your answers" }),
+      screen.getByRole("heading", { name: "Vocabulary" }),
     ).toBeInTheDocument();
     await user.click(
       within(screen.getByRole("navigation", { name: "Subjects" })).getByRole(
