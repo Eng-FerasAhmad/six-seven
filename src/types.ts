@@ -28,6 +28,7 @@ export interface Lesson {
   sections: { title: string; text: string; example?: string }[];
 }
 export interface Exercise {
+  kind?: "multiple-choice" | "fill-blank" | "matching" | "true-false";
   visual?: { kind: "place-value"; number: number; highlightPlace: number };
   id: string;
   lessonId: string;

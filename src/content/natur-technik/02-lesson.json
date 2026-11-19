@@ -1,16 +1,29 @@
 {
   "id": "natur-technik-2",
   "subjectId": "natur-technik",
-  "title": "Forschen mit allen Sinnen",
-  "description": "Beobachte deine Umwelt.",
-  "minutes": 7,
+  "title": "Lebewesen und Zellen",
+  "description": "Kennzeichen des Lebens und Aufbau von Zellen.",
+  "minutes": 12,
   "sections": [
     {
-      "title": "Unsere Sinne",
-      "text": "Mit Augen, Ohren, Nase, Zunge und Haut nehmen wir unsere Umwelt wahr. Beim Forschen beobachten wir genau. Probiere im Experiment niemals unbekannte Stoffe!",
-      "example": "Mit der Haut spürst du, ob etwas warm oder kalt ist."
+      "title": "Kennzeichen von Lebewesen",
+      "text": "Zu den Lebewesen gehören Pflanzen, Tiere, Pilze und Bakterien. Kennzeichen sind Stoffwechsel, Bewegung aus eigener Kraft, Reizbarkeit, Wachstum und Entwicklung, Fortpflanzung und Vererbung sowie der Aufbau aus Zellen. Diese Merkmale werden gemeinsam betrachtet.",
+      "example": "Ein einzelnes Merkmal reicht oft nicht aus: Ein Auto bewegt sich, ist aber kein Lebewesen."
+    },
+    {
+      "title": "Lebendig oder nicht?",
+      "text": "Gänseblümchen, Löwe und Baum sind lebendig. Smartphone, Roboter, Auto, Schneckenhaus und Glühbirne sind nicht lebendig. Bei Eiern, Nüssen und Samen hängt es davon ab, ob ein lebensfähiger Organismus enthalten ist."
+    },
+    {
+      "title": "Die Zelle",
+      "text": "Alle Lebewesen bestehen aus mindestens einer Zelle. Sie ist die kleinste lebende Einheit. Viele Zellen sind nur mit dem Mikroskop sichtbar. Tierische und pflanzliche Zellen besitzen Zellmembran, Zellplasma und meist einen Zellkern. Der Zellkern enthält Erbinformationen und steuert viele Lebensvorgänge. Mitochondrien dienen der Energiegewinnung."
+    },
+    {
+      "title": "Pflanzenzellen und Zellteilung",
+      "text": "Pflanzenzellen besitzen zusätzlich eine stabilisierende Zellwand, Chloroplasten mit Chlorophyll und eine große Zellsaftvakuole als Speicher. Vor der Zellteilung wird die Erbinformation verdoppelt. Dann entstehen zwei Tochterzellen. So sind Wachstum und Erneuerung möglich.",
+      "example": "Pflanzenzellen erkennst du an Zellwand, Chloroplasten und großer Zellsaftvakuole."
     }
   ],
   "number": 2,
-  "date": "2026-11-09"
+  "date": "2026-09-18"
 }

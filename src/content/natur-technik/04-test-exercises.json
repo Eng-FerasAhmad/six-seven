@@ -1,0 +1,343 @@
+[
+  {
+    "id": "natur-technik-4-test-question-1",
+    "lessonId": "natur-technik-4",
+    "kind": "fill-blank",
+    "question": "Das menschliche Skelett besteht aus verschiedenen _____.",
+    "options": [
+      "Knochen",
+      "Herz",
+      "Beine",
+      "Muskeln"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtiges Wort: Knochen."
+  },
+  {
+    "id": "natur-technik-4-test-question-2",
+    "lessonId": "natur-technik-4",
+    "kind": "fill-blank",
+    "question": "Der _____ schützt das Gehirn und die Sinnesorgane.",
+    "options": [
+      "Schädel",
+      "Herz",
+      "Beine",
+      "Muskeln"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtiges Wort: Schädel."
+  },
+  {
+    "id": "natur-technik-4-test-question-3",
+    "lessonId": "natur-technik-4",
+    "kind": "fill-blank",
+    "question": "Die _____ schützt das Rückenmark und stützt den Körper.",
+    "options": [
+      "Wirbelsäule",
+      "Herz",
+      "Beine",
+      "Muskeln"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtiges Wort: Wirbelsäule."
+  },
+  {
+    "id": "natur-technik-4-test-question-4",
+    "lessonId": "natur-technik-4",
+    "kind": "fill-blank",
+    "question": "Rippen und Brustbein bilden den _____.",
+    "options": [
+      "Brustkorb",
+      "Herz",
+      "Beine",
+      "Muskeln"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtiges Wort: Brustkorb."
+  },
+  {
+    "id": "natur-technik-4-test-question-5",
+    "lessonId": "natur-technik-4",
+    "kind": "fill-blank",
+    "question": "Schlüsselbein und Schulterblatt bilden den _____.",
+    "options": [
+      "Schultergürtel",
+      "Herz",
+      "Beine",
+      "Muskeln"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtiges Wort: Schultergürtel."
+  },
+  {
+    "id": "natur-technik-4-test-question-6",
+    "lessonId": "natur-technik-4",
+    "kind": "matching",
+    "question": "Schädel",
+    "options": [
+      "Schützt Herz und Lunge",
+      "Federt Stöße beim Gehen ab",
+      "Schützt Gehirn und Sinnesorgane",
+      "Macht Schulter und Arm beweglich",
+      "Schützt das Rückenmark und stützt den Körper"
+    ],
+    "answerIndex": 2,
+    "explanation": "Schädel → Schützt Gehirn und Sinnesorgane."
+  },
+  {
+    "id": "natur-technik-4-test-question-7",
+    "lessonId": "natur-technik-4",
+    "kind": "matching",
+    "question": "Wirbelsäule",
+    "options": [
+      "Schützt Herz und Lunge",
+      "Federt Stöße beim Gehen ab",
+      "Schützt Gehirn und Sinnesorgane",
+      "Macht Schulter und Arm beweglich",
+      "Schützt das Rückenmark und stützt den Körper"
+    ],
+    "answerIndex": 4,
+    "explanation": "Wirbelsäule → Schützt das Rückenmark und stützt den Körper."
+  },
+  {
+    "id": "natur-technik-4-test-question-8",
+    "lessonId": "natur-technik-4",
+    "kind": "matching",
+    "question": "Brustkorb",
+    "options": [
+      "Schützt Herz und Lunge",
+      "Federt Stöße beim Gehen ab",
+      "Schützt Gehirn und Sinnesorgane",
+      "Macht Schulter und Arm beweglich",
+      "Schützt das Rückenmark und stützt den Körper"
+    ],
+    "answerIndex": 0,
+    "explanation": "Brustkorb → Schützt Herz und Lunge."
+  },
+  {
+    "id": "natur-technik-4-test-question-9",
+    "lessonId": "natur-technik-4",
+    "kind": "matching",
+    "question": "Schultergürtel",
+    "options": [
+      "Schützt Herz und Lunge",
+      "Federt Stöße beim Gehen ab",
+      "Schützt Gehirn und Sinnesorgane",
+      "Macht Schulter und Arm beweglich",
+      "Schützt das Rückenmark und stützt den Körper"
+    ],
+    "answerIndex": 3,
+    "explanation": "Schultergürtel → Macht Schulter und Arm beweglich."
+  },
+  {
+    "id": "natur-technik-4-test-question-10",
+    "lessonId": "natur-technik-4",
+    "kind": "matching",
+    "question": "Fußgewölbe",
+    "options": [
+      "Schützt Herz und Lunge",
+      "Federt Stöße beim Gehen ab",
+      "Schützt Gehirn und Sinnesorgane",
+      "Macht Schulter und Arm beweglich",
+      "Schützt das Rückenmark und stützt den Körper"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fußgewölbe → Federt Stöße beim Gehen ab."
+  },
+  {
+    "id": "natur-technik-4-test-question-11",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Was sind die Aufgaben des Skeletts?",
+    "options": [
+      "Es stützt den Körper, ermöglicht Bewegung und schützt Organe",
+      "Es erzeugt Licht und Geräusche",
+      "Es verdaut Nahrung",
+      "Es nimmt Gerüche wahr"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Es stützt den Körper, ermöglicht Bewegung und schützt Organe."
+  },
+  {
+    "id": "natur-technik-4-test-question-12",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Was ist die Aufgabe des Beckens?",
+    "options": [
+      "Es schützt Organe und gibt Stabilität",
+      "Es schützt das Gehirn",
+      "Es bewegt die Finger",
+      "Es nimmt Schall wahr"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Es schützt Organe und gibt Stabilität."
+  },
+  {
+    "id": "natur-technik-4-test-question-13",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Welche Aufgabe haben Bandscheiben?",
+    "options": [
+      "Sie wirken als Stoßdämpfer",
+      "Sie schützen die Augen",
+      "Sie bilden den Brustkorb",
+      "Sie greifen kleine Gegenstände"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Sie wirken als Stoßdämpfer."
+  },
+  {
+    "id": "natur-technik-4-test-question-14",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Was ermöglicht der opponierbare Daumen?",
+    "options": [
+      "Den präzisen Pinzettengriff",
+      "Das Hören",
+      "Den aufrechten Gang",
+      "Die Atmung"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Den präzisen Pinzettengriff."
+  },
+  {
+    "id": "natur-technik-4-test-question-19",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Wie viele Halswirbel hat die Halswirbelsäule?",
+    "options": [
+      "7",
+      "5",
+      "12",
+      "23"
+    ],
+    "answerIndex": 0,
+    "explanation": "Die Halswirbelsäule besteht aus 7 Halswirbeln."
+  },
+  {
+    "id": "natur-technik-4-test-question-20",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Welche Knochen gehören zum Beinskelett?",
+    "options": [
+      "Schienbein und Wadenbein",
+      "Elle und Speiche",
+      "Schlüsselbein und Schulterblatt",
+      "Rippen und Brustbein"
+    ],
+    "answerIndex": 0,
+    "explanation": "Schienbein und Wadenbein gehören zum Beinskelett."
+  },
+  {
+    "id": "natur-technik-4-test-question-21",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Welche Form hat die Wirbelsäule?",
+    "options": [
+      "Eine doppelte S-Form",
+      "Eine gerade Linie",
+      "Eine Kreisform",
+      "Eine Z-Form"
+    ],
+    "answerIndex": 0,
+    "explanation": "Die doppelte S-Form macht die Wirbelsäule elastisch."
+  },
+  {
+    "id": "natur-technik-4-test-question-22",
+    "lessonId": "natur-technik-4",
+    "kind": "multiple-choice",
+    "question": "Welche Aufgabe hat das Fußgewölbe?",
+    "options": [
+      "Gewicht verteilen, Stöße abfedern und Gleichgewicht unterstützen",
+      "Das Gehirn schützen",
+      "Den Arm bewegen",
+      "Das Rückenmark schützen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Das Fußgewölbe verteilt Gewicht, federt Stöße ab und hilft beim Gleichgewicht."
+  },
+  {
+    "id": "natur-technik-4-test-question-15",
+    "lessonId": "natur-technik-4",
+    "kind": "true-false",
+    "question": "Die Brustwirbelsäule besteht aus 12 Brustwirbeln.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Richtig."
+  },
+  {
+    "id": "natur-technik-4-test-question-16",
+    "lessonId": "natur-technik-4",
+    "kind": "true-false",
+    "question": "Kreuzbein und Steißbein bestehen aus frei beweglichen Wirbeln.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig: Falsch."
+  },
+  {
+    "id": "natur-technik-4-test-question-17",
+    "lessonId": "natur-technik-4",
+    "kind": "true-false",
+    "question": "Eine schwere Schultasche sollte eng am Rücken getragen werden und möglichst leicht gepackt sein.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Richtig."
+  },
+  {
+    "id": "natur-technik-4-test-question-18",
+    "lessonId": "natur-technik-4",
+    "kind": "true-false",
+    "question": "Das Fußgewölbe hilft, Stöße beim Gehen abzufedern.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Richtig."
+  },
+  {
+    "id": "natur-technik-4-test-question-23",
+    "lessonId": "natur-technik-4",
+    "kind": "true-false",
+    "question": "Schlüsselbein und Schulterblatt gehören zum Schultergürtel.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Beide Knochen bilden den Schultergürtel."
+  },
+  {
+    "id": "natur-technik-4-test-question-24",
+    "lessonId": "natur-technik-4",
+    "kind": "true-false",
+    "question": "Der Arm ist besonders zum Greifen geeignet, das Bein zum Tragen und Fortbewegen.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Arm und Bein haben unterschiedliche Aufgaben."
+  },
+  {
+    "id": "natur-technik-4-test-question-25",
+    "lessonId": "natur-technik-4",
+    "kind": "true-false",
+    "question": "Die Wirbelsäule ist völlig starr und kann keine Stöße abfedern.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Die Wirbelsäule ist elastisch und federt Stöße ab."
+  }
+]

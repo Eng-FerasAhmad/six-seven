@@ -76,14 +76,58 @@ export function createTestPdf({
     12,
   );
   y += 7;
+  const skeletonTest = test.id === "natur-technik-test-4";
   text(
-    english
-      ? "Choose one answer for each question."
-      : "Kreuze für jede Frage eine Antwort an.",
+    skeletonTest
+      ? "Bearbeite die vier Aufgabenblöcke. Schreibe leserlich und kreuze eindeutige Antworten an."
+      : english
+        ? "Choose one answer for each question."
+        : "Kreuze für jede Frage eine Antwort an.",
     11,
   );
   y += 9;
+  if (skeletonTest) {
+    text("1. Fülle die Lücken", 15, true);
+    y += 3;
+    text("Trage die passenden Namen in den Text ein.", 11);
+    y += 5;
+    text("Das menschliche Skelett gibt dem Körper Halt. Zusammen mit den Muskeln", 12);
+    text("ermöglicht es Bewegung und schützt wichtige Organe.", 12);
+    text("Das menschliche Skelett besteht aus verschiedenen (1) ______________.", 12);
+    text("Der (2) ______________ schützt Gehirn und Sinnesorgane.", 12);
+    text("Die (3) ______________ schützt das Rückenmark.", 12);
+    text("Rippen und Brustbein bilden den (4) ______________.", 12);
+    text("Schlüsselbein und Schulterblatt bilden den (5) ______________.", 12);
+    text("Arme und Hände helfen beim Greifen. Beine und Füße tragen das Körpergewicht", 12);
+    text("und ermöglichen das Gehen. Das Fußgewölbe verteilt das Gewicht und federt", 12);
+    text("Schritte ab.", 12);
+    y += 13;
+    ensureSpace(75);
+    text("2. Verbinde Teil und Aufgabe", 15, true);
+    y += 3;
+    text("Schreibe den passenden Buchstaben neben jeden Skelettteil.", 11);
+    y += 5;
+    const matching = questions.slice(5, 10);
+    const tasks = matching[0].options;
+    for (let index = 0; index < matching.length; index++) {
+      ensureSpace(12);
+      text(`${index + 1}. ${matching[index].question}  ____`, 11, false, margin, 75);
+      const right = `${String.fromCharCode(65 + index)}. ${tasks[index]}`;
+      const lines: string[] = pdf.splitTextToSize(right, 85);
+      pdf.text(lines, margin + 88, y - 5.28);
+      y += Math.max(0, (lines.length - 1) * 5.28) + 7;
+    }
+    y += 12;
+    text("3. Was sind die Aufgaben?", 15, true);
+    y += 4;
+  }
   for (const [index, question] of questions.entries()) {
+    if (skeletonTest && index < 10) continue;
+    if (skeletonTest && index === 18) {
+      ensureSpace(18);
+      text("4. Richtig oder falsch?", 15, true);
+      y += 4;
+    }
     pdf.setFont("helvetica", "bold");
     pdf.setFontSize(14);
     const headingLines: string[] = pdf.splitTextToSize(

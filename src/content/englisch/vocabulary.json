@@ -1,0 +1,872 @@
+[
+  {
+    "english": "School",
+    "german": "Schule",
+    "entries": [
+      {
+        "english": "pen",
+        "german": "der Füller"
+      },
+      {
+        "english": "pencil",
+        "german": "der Bleistift"
+      },
+      {
+        "english": "pencil case",
+        "german": "das Federmäppchen"
+      },
+      {
+        "english": "exercise book",
+        "german": "das Übungsheft"
+      },
+      {
+        "english": "ruler",
+        "german": "das Lineal"
+      },
+      {
+        "english": "rubber",
+        "german": "der Radiergummi"
+      },
+      {
+        "english": "uniform",
+        "german": "die Uniform"
+      },
+      {
+        "english": "recording studio",
+        "german": "das Aufnahmestudio"
+      },
+      {
+        "english": "tutor",
+        "german": "ältere Studenten"
+      },
+      {
+        "english": "classroom",
+        "german": "das Klassenzimmer"
+      },
+      {
+        "english": "classmate",
+        "german": "der Klassenkamerad / in"
+      },
+      {
+        "english": "to have got",
+        "german": "haben / besitzen"
+      },
+      {
+        "english": "question",
+        "german": "die Frage"
+      },
+      {
+        "english": "schoolbag",
+        "german": "die Schultasche"
+      },
+      {
+        "english": "tutor group",
+        "german": "die Klasse / die Tutorengruppe"
+      },
+      {
+        "english": "Good morning!",
+        "german": "Guten Morgen!"
+      },
+      {
+        "english": "everyone",
+        "german": "alle / jeder"
+      },
+      {
+        "english": "student",
+        "german": "der Schüler / die Schülerin"
+      },
+      {
+        "english": "to call",
+        "german": "nennen / anrufen"
+      },
+      {
+        "english": "him",
+        "german": "ihn / ihm"
+      },
+      {
+        "english": "to sing",
+        "german": "singen"
+      },
+      {
+        "english": "to dance",
+        "german": "tanzen"
+      },
+      {
+        "english": "project",
+        "german": "das Projekt"
+      },
+      {
+        "english": "to listen",
+        "german": "zuhören"
+      },
+      {
+        "english": "idea",
+        "german": "die Idee"
+      },
+      {
+        "english": "desk",
+        "german": "der Schreibtisch / die Schulbank"
+      },
+      {
+        "english": "computer",
+        "german": "der Computer"
+      },
+      {
+        "english": "answer",
+        "german": "die Antwort"
+      },
+      {
+        "english": "wall",
+        "german": "die Wand"
+      },
+      {
+        "english": "address",
+        "german": "die Adresse"
+      },
+      {
+        "english": "poster",
+        "german": "das Poster / das Plakat"
+      },
+      {
+        "english": "rule",
+        "german": "die Regel"
+      },
+      {
+        "english": "homework calendar",
+        "german": "das Hausaufgabenheft"
+      },
+      {
+        "english": "lunch",
+        "german": "das Mittagessen"
+      },
+      {
+        "english": "cafeteria",
+        "german": "die Cafeteria / die Mensa"
+      },
+      {
+        "english": "art",
+        "german": "die Kunst"
+      },
+      {
+        "english": "art lesson",
+        "german": "der Kunstunterricht"
+      },
+      {
+        "english": "scissors",
+        "german": "die Schere"
+      },
+      {
+        "english": "shelf",
+        "german": "das Regal"
+      },
+      {
+        "english": "floor",
+        "german": "der Fußboden"
+      },
+      {
+        "english": "mirror",
+        "german": "der Spiegel"
+      },
+      {
+        "english": "lamp",
+        "german": "die Lampe"
+      }
+    ]
+  },
+  {
+    "english": "Hobbies, Sports and Free Time",
+    "german": "Hobbys, Sport und Freizeit",
+    "entries": [
+      {
+        "english": "to watch",
+        "german": "anschauen / ansehen"
+      },
+      {
+        "english": "card",
+        "german": "die Karte"
+      },
+      {
+        "english": "magazine",
+        "german": "die Zeitschrift"
+      },
+      {
+        "english": "to watch TV",
+        "german": "fernsehen"
+      },
+      {
+        "english": "DVD",
+        "german": "die DVD"
+      },
+      {
+        "english": "me too",
+        "german": "ich auch"
+      },
+      {
+        "english": "bike",
+        "german": "das Fahrrad"
+      },
+      {
+        "english": "silly",
+        "german": "albern / dumm"
+      },
+      {
+        "english": "to play badminton",
+        "german": "Badminton spielen"
+      },
+      {
+        "english": "to play basketball",
+        "german": "Basketball spielen"
+      },
+      {
+        "english": "to play football",
+        "german": "Fußball spielen"
+      },
+      {
+        "english": "to play volleyball",
+        "german": "Volleyball spielen"
+      },
+      {
+        "english": "to play tennis",
+        "german": "Tennis spielen"
+      },
+      {
+        "english": "to play handball",
+        "german": "Handball spielen"
+      },
+      {
+        "english": "to play games",
+        "german": "Spiele spielen"
+      },
+      {
+        "english": "to play with friends",
+        "german": "mit Freunden spielen"
+      },
+      {
+        "english": "to play in the garden",
+        "german": "im Garten spielen"
+      },
+      {
+        "english": "to play in the park",
+        "german": "im Park spielen"
+      },
+      {
+        "english": "to play outside",
+        "german": "draußen spielen"
+      },
+      {
+        "english": "to play at home",
+        "german": "zu Hause spielen"
+      },
+      {
+        "english": "to go boating",
+        "german": "Boot fahren"
+      },
+      {
+        "english": "to go cycling",
+        "german": "Rad fahren"
+      },
+      {
+        "english": "to go inline skating",
+        "german": "Inlineskaten"
+      },
+      {
+        "english": "to go swimming",
+        "german": "schwimmen gehen"
+      },
+      {
+        "english": "to go horse riding",
+        "german": "reiten gehen"
+      },
+      {
+        "english": "to go skiing",
+        "german": "Ski fahren"
+      },
+      {
+        "english": "to go snowboarding",
+        "german": "snowboarden"
+      },
+      {
+        "english": "to make music",
+        "german": "Musik machen"
+      },
+      {
+        "english": "to make models",
+        "german": "Modelle bauen"
+      },
+      {
+        "english": "to play",
+        "german": "spielen"
+      },
+      {
+        "english": "boring",
+        "german": "langweilig"
+      },
+      {
+        "english": "to be into sport",
+        "german": "sich für Sport interessieren"
+      },
+      {
+        "english": "Try skating!",
+        "german": "Probier mal Skaten!"
+      },
+      {
+        "english": "text message",
+        "german": "die SMS / die Kurznachricht"
+      },
+      {
+        "english": "reading",
+        "german": "das Lesen"
+      },
+      {
+        "english": "music",
+        "german": "die Musik"
+      },
+      {
+        "english": "to paint",
+        "german": "malen"
+      },
+      {
+        "english": "to read",
+        "german": "lesen"
+      },
+      {
+        "english": "book",
+        "german": "das Buch"
+      },
+      {
+        "english": "to take photos",
+        "german": "fotografieren / Fotos machen"
+      },
+      {
+        "english": "game",
+        "german": "das Spiel"
+      }
+    ]
+  },
+  {
+    "english": "Family",
+    "german": "Familie",
+    "entries": [
+      {
+        "english": "sister",
+        "german": "die Schwester"
+      },
+      {
+        "english": "little",
+        "german": "klein"
+      },
+      {
+        "english": "brother",
+        "german": "der Bruder"
+      },
+      {
+        "english": "father",
+        "german": "der Vater"
+      },
+      {
+        "english": "mother",
+        "german": "die Mutter"
+      },
+      {
+        "english": "cousin",
+        "german": "der Cousin / die Cousine"
+      },
+      {
+        "english": "an",
+        "german": "ein / eine"
+      },
+      {
+        "english": "only",
+        "german": "nur / erst"
+      },
+      {
+        "english": "dad",
+        "german": "der Papa"
+      },
+      {
+        "english": "she is / she's",
+        "german": "sie ist"
+      },
+      {
+        "english": "always",
+        "german": "immer / ständig"
+      },
+      {
+        "english": "easy",
+        "german": "einfach / leicht"
+      },
+      {
+        "english": "he is / he's",
+        "german": "er ist"
+      },
+      {
+        "english": "mum",
+        "german": "die Mama"
+      },
+      {
+        "english": "uncle",
+        "german": "der Onkel"
+      },
+      {
+        "english": "aunt",
+        "german": "die Tante"
+      },
+      {
+        "english": "grandad",
+        "german": "der Opa"
+      },
+      {
+        "english": "grandma",
+        "german": "die Oma"
+      },
+      {
+        "english": "family tree",
+        "german": "der Stammbaum"
+      }
+    ]
+  },
+  {
+    "english": "Adjectives",
+    "german": "Adjektive",
+    "entries": [
+      {
+        "english": "nice",
+        "german": "nett / schön"
+      },
+      {
+        "english": "cool",
+        "german": "cool"
+      },
+      {
+        "english": "great",
+        "german": "großartig / toll"
+      },
+      {
+        "english": "fun",
+        "german": "lustig / macht Spaß"
+      },
+      {
+        "english": "OK",
+        "german": "in Ordnung"
+      },
+      {
+        "english": "crazy",
+        "german": "verrückt"
+      },
+      {
+        "english": "quiet",
+        "german": "ruhig / leise"
+      },
+      {
+        "english": "small",
+        "german": "klein"
+      },
+      {
+        "english": "tall",
+        "german": "groß (bei Personen)"
+      },
+      {
+        "english": "friendly",
+        "german": "freundlich"
+      },
+      {
+        "english": "clever",
+        "german": "schlau / klug"
+      },
+      {
+        "english": "silly",
+        "german": "albern / dumm"
+      },
+      {
+        "english": "noisy",
+        "german": "laut"
+      },
+      {
+        "english": "short",
+        "german": "klein / kurz"
+      },
+      {
+        "english": "guinea pig",
+        "german": "das Meerschweinchen"
+      },
+      {
+        "english": "wrong",
+        "german": "falsch"
+      },
+      {
+        "english": "happy",
+        "german": "glücklich / froh / fröhlich"
+      },
+      {
+        "english": "best",
+        "german": "am besten / beste(r, s)"
+      },
+      {
+        "english": "afraid",
+        "german": "ängstlich"
+      },
+      {
+        "english": "right",
+        "german": "richtig / korrekt"
+      }
+    ]
+  },
+  {
+    "english": "Places and Objects",
+    "german": "Orte und Gegenstände",
+    "entries": [
+      {
+        "english": "garden",
+        "german": "der Garten"
+      },
+      {
+        "english": "car",
+        "german": "das Auto"
+      },
+      {
+        "english": "everywhere",
+        "german": "überall"
+      },
+      {
+        "english": "floor",
+        "german": "der Fußboden"
+      },
+      {
+        "english": "next to",
+        "german": "neben"
+      },
+      {
+        "english": "in front of",
+        "german": "vor"
+      },
+      {
+        "english": "in the middle of",
+        "german": "in der Mitte von"
+      },
+      {
+        "english": "on the right",
+        "german": "auf der rechten Seite / rechts"
+      },
+      {
+        "english": "on the left",
+        "german": "auf der linken Seite / links"
+      },
+      {
+        "english": "behind",
+        "german": "hinter"
+      },
+      {
+        "english": "outside",
+        "german": "draußen / nach draußen"
+      },
+      {
+        "english": "shop",
+        "german": "der Laden / das Geschäft"
+      },
+      {
+        "english": "sweets",
+        "german": "die Süßigkeiten"
+      },
+      {
+        "english": "money",
+        "german": "das Geld"
+      },
+      {
+        "english": "machine",
+        "german": "die Maschine / der Automat"
+      },
+      {
+        "english": "to buy",
+        "german": "kaufen"
+      },
+      {
+        "english": "to pay for",
+        "german": "bezahlen"
+      },
+      {
+        "english": "finger",
+        "german": "der Finger"
+      },
+      {
+        "english": "lunch",
+        "german": "das Mittagessen"
+      },
+      {
+        "english": "bag",
+        "german": "die Tasche / die Tüte"
+      },
+      {
+        "english": "box",
+        "german": "die Kiste / die Schachtel"
+      },
+      {
+        "english": "toy",
+        "german": "das Spielzeug"
+      },
+      {
+        "english": "cuddly toy",
+        "german": "das Kuscheltier"
+      },
+      {
+        "english": "skateboard",
+        "german": "das Skateboard"
+      },
+      {
+        "english": "skater",
+        "german": "der Skater / die Skaterin"
+      }
+    ]
+  },
+  {
+    "english": "Verbs and Expressions",
+    "german": "Verben und Ausdrücke",
+    "entries": [
+      {
+        "english": "busy",
+        "german": "beschäftigt"
+      },
+      {
+        "english": "who ... for?",
+        "german": "für wen?"
+      },
+      {
+        "english": "to explore",
+        "german": "erkunden / auf Entdeckungsreise gehen"
+      },
+      {
+        "english": "boy",
+        "german": "der Junge"
+      },
+      {
+        "english": "maybe",
+        "german": "vielleicht"
+      },
+      {
+        "english": "after",
+        "german": "nach / danach"
+      },
+      {
+        "english": "visit",
+        "german": "der Besuch / besuchen"
+      },
+      {
+        "english": "awful",
+        "german": "schrecklich / furchtbar"
+      },
+      {
+        "english": "Don't worry!",
+        "german": "Keine Sorge! / Mach dir keine Sorgen!"
+      },
+      {
+        "english": "sentence",
+        "german": "der Satz"
+      },
+      {
+        "english": "right",
+        "german": "richtig / korrekt"
+      },
+      {
+        "english": "ending",
+        "german": "das Ende / der Schluss"
+      },
+      {
+        "english": "to talk about",
+        "german": "über etwas sprechen"
+      },
+      {
+        "english": "day",
+        "german": "der Tag"
+      },
+      {
+        "english": "can't",
+        "german": "kann nicht / können nicht"
+      },
+      {
+        "english": "to meet",
+        "german": "treffen / sich treffen"
+      },
+      {
+        "english": "problem",
+        "german": "das Problem / die Schwierigkeit"
+      },
+      {
+        "english": "there is / there are",
+        "german": "es gibt"
+      },
+      {
+        "english": "Mr",
+        "german": "Herr"
+      },
+      {
+        "english": "Mrs",
+        "german": "Frau"
+      },
+      {
+        "english": "now",
+        "german": "jetzt / nun"
+      },
+      {
+        "english": "again",
+        "german": "wieder / noch einmal"
+      },
+      {
+        "english": "to listen",
+        "german": "zuhören / anhören"
+      },
+      {
+        "english": "on",
+        "german": "auf / an"
+      },
+      {
+        "english": "to want",
+        "german": "wollen / möchten"
+      },
+      {
+        "english": "to play",
+        "german": "spielen"
+      },
+      {
+        "english": "look",
+        "german": "Schau! / Guck mal!"
+      },
+      {
+        "english": "to say",
+        "german": "sagen"
+      },
+      {
+        "english": "is also",
+        "german": "ist auch"
+      },
+      {
+        "english": "I'm sorry.",
+        "german": "Es tut mir leid."
+      },
+      {
+        "english": "I'm fine.",
+        "german": "Mir geht es gut."
+      },
+      {
+        "english": "cute",
+        "german": "süß / niedlich"
+      },
+      {
+        "english": "lucky charm",
+        "german": "der Glücksbringer / der Talisman"
+      },
+      {
+        "english": "to send greetings",
+        "german": "Grüße ausrichten"
+      },
+      {
+        "english": "Thank you!",
+        "german": "Danke!"
+      },
+      {
+        "english": "very",
+        "german": "sehr"
+      },
+      {
+        "english": "some",
+        "german": "einige / ein paar / etwas"
+      },
+      {
+        "english": "of",
+        "german": "von"
+      },
+      {
+        "english": "to say hello",
+        "german": "grüßen / Hallo sagen"
+      },
+      {
+        "english": "to",
+        "german": "zu / nach / auf (je nach Zusammenhang)"
+      },
+      {
+        "english": "its",
+        "german": "sein / seine (besitzanzeigend)"
+      },
+      {
+        "english": "it's",
+        "german": "es ist"
+      }
+    ]
+  },
+  {
+    "english": "Additional Vocabulary",
+    "german": "Weitere Vokabeln",
+    "entries": [
+      {
+        "english": "to be",
+        "german": "sein"
+      },
+      {
+        "english": "to have got",
+        "german": "haben"
+      },
+      {
+        "english": "to call",
+        "german": "nennen / anrufen"
+      },
+      {
+        "english": "to watch TV",
+        "german": "fernsehen"
+      },
+      {
+        "english": "to make",
+        "german": "machen / herstellen"
+      },
+      {
+        "english": "to go",
+        "german": "gehen / fahren"
+      },
+      {
+        "english": "to read",
+        "german": "lesen"
+      },
+      {
+        "english": "to paint",
+        "german": "malen"
+      },
+      {
+        "english": "to take photos",
+        "german": "Fotos machen"
+      },
+      {
+        "english": "to play with animals",
+        "german": "mit Tieren spielen"
+      },
+      {
+        "english": "to play with cars",
+        "german": "mit Autos spielen"
+      },
+      {
+        "english": "to go swimming",
+        "german": "schwimmen gehen"
+      },
+      {
+        "english": "to go horse riding",
+        "german": "reiten gehen"
+      },
+      {
+        "english": "to go snowboarding",
+        "german": "snowboarden"
+      },
+      {
+        "english": "to go skiing",
+        "german": "Ski fahren"
+      },
+      {
+        "english": "to go cycling",
+        "german": "Rad fahren"
+      },
+      {
+        "english": "to go boating",
+        "german": "Boot fahren"
+      },
+      {
+        "english": "to go inline skating",
+        "german": "Inlineskaten"
+      }
+    ]
+  }
+]

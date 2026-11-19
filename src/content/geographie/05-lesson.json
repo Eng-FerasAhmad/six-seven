@@ -1,0 +1,51 @@
+{
+  "id": "geographie-5",
+  "subjectId": "geographie",
+  "title": "Grundwasser und Wasserkreislauf",
+  "description": "Wie Regenwasser versickert, Grundwasser entsteht und Wasser im Kreislauf bleibt.",
+  "minutes": 25,
+  "number": 5,
+  "date": "2026-11-18",
+  "sections": [
+    {
+      "title": "Was passiert mit Regenwasser?",
+      "text": "Wenn Regen auf den Boden fällt, kann ein Teil versickern. Ein anderer Teil fließt über die Erdoberfläche ab. Im Boden gibt es kleine Hohlräume zwischen Boden- und Gesteinsteilchen. Sie können Luft oder Wasser enthalten.",
+      "example": "Einstiegsfrage: Was passiert mit Regenwasser, wenn es auf den Boden fällt?"
+    },
+    {
+      "title": "Das Grundwasser",
+      "text": "Regenwasser sickert durch wasserdurchlässige Schichten. Eine kaum durchlässige Schicht hält es auf: der Grundwasserstauer. Darüber kann sich Wasser in zusammenhängend gefüllten Hohlräumen sammeln. Dieses Wasser heißt Grundwasser.",
+      "example": "Wasserdurchlässig: Wasser kann hindurch. Grundwasserstauer: Wasser wird aufgehalten."
+    },
+    {
+      "title": "Kies, Sand und Ton",
+      "text": "In Kies liegen größere Hohlräume zwischen den Steinen; Wasser sickert meist schnell hindurch. In Sand sind die Hohlräume kleiner; Wasser sickert meist langsamer. Ton lässt Wasser gewöhnlich nur sehr langsam hindurch. Auch die Lagerung und Verdichtung des Bodens beeinflussen die Geschwindigkeit.",
+      "example": "Merke: Kies → schnell, Sand → langsamer, Ton → sehr langsam."
+    },
+    {
+      "title": "Der Wasserkreislauf",
+      "text": "Der Wasserkreislauf verbindet Verdunstung, Kondensation, Niederschlag, Versickerung und Abfluss. Die Wassermenge auf der Erde bleibt dabei im Wesentlichen erhalten. Sonnenenergie erwärmt Wasser und treibt die Verdunstung an. Die Schwerkraft lässt Niederschlag fallen und Wasser bergab fließen.",
+      "example": "Merke die Reihenfolge: Verdunstung → Kondensation → Niederschlag → Versickerung oder Abfluss."
+    },
+    {
+      "title": "Verdunstung und Kondensation",
+      "text": "Durch Wärme verdunstet Wasser aus Meeren, Seen, Flüssen und Böden. Pflanzen geben ebenfalls Wasserdampf an die Luft ab. Kühlt Wasserdampf ab, kann er zu kleinen Wassertröpfchen kondensieren. So entstehen Wolken.",
+      "example": "Verdunstung: flüssig → gasförmig. Kondensation: gasförmig → flüssig."
+    },
+    {
+      "title": "Niederschlag, Versickerung und Abfluss",
+      "text": "Aus Wolken fällt Wasser als Regen, Schnee oder Hagel. Ein Teil versickert und kann Grundwasser bilden. Ein anderer Teil fließt als Oberflächenabfluss über Bäche und Flüsse zurück in Seen und Meere. Dann beginnt der Kreislauf erneut.",
+      "example": "Beschrifte einen Kreislauf mit: Verdunstung, Kondensation, Niederschlag, Versickerung, Oberflächenabfluss."
+    },
+    {
+      "title": "Warum der Kreislauf wichtig ist",
+      "text": "Der Wasserkreislauf verteilt Wasser auf der Erde. Er füllt Flüsse, Seen und Grundwasservorräte wieder auf. Menschen, Tiere und Pflanzen brauchen Wasser. Grundwasser ist eine wichtige Quelle für Trinkwasser.",
+      "example": "Frage: Warum ist Grundwasser für Menschen wichtig?"
+    },
+    {
+      "title": "Fachbegriffe wiederholen",
+      "text": "Grundwasser füllt Hohlräume im Untergrund zusammenhängend aus. Ein Grundwasserstauer lässt Wasser kaum durch. Versickerung bedeutet Eindringen in den Boden. Verdunstung macht aus flüssigem Wasser Wasserdampf. Bei Kondensation entstehen Wassertröpfchen. Niederschlag fällt aus Wolken zur Erde. Oberflächenabfluss fließt über die Erdoberfläche.",
+      "example": "Sonnenenergie erwärmt das Wasser; Schwerkraft zieht Wasser nach unten."
+    }
+  ]
+}

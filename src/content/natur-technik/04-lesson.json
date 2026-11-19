@@ -1,0 +1,29 @@
+{
+  "id": "natur-technik-4",
+  "subjectId": "natur-technik",
+  "title": "Skelett und Wirbelsäule",
+  "description": "Knochen, Schutz und Bewegung des Körpers.",
+  "minutes": 12,
+  "sections": [
+    {
+      "title": "Aufgaben und Teile des Skeletts",
+      "text": "Das Skelett stützt und stabilisiert den Körper, ermöglicht mit Muskeln Bewegungen und schützt innere Organe. Es gliedert sich unter anderem in Kopfskelett, Rumpfskelett und Gliedmaßenskelett.",
+      "example": "Das Skelett hat drei Hauptaufgaben: stützen, schützen und zusammen mit Muskeln Bewegung ermöglichen."
+    },
+    {
+      "title": "Schädel, Brustkorb und Gürtel",
+      "text": "Der Schädel schützt das Gehirn und besteht aus Gehirn- und Gesichtsschädel. Knochenplatten des Gehirnschädels sind durch Knochennähte verbunden. Zum Gesichtsschädel gehören Nasenbein, Jochbein, Ober- und Unterkiefer. Rippen und Brustbein bilden den Brustkorb und schützen Herz und Lunge. Das Becken schützt Organe und stabilisiert den Körper. Schlüsselbein und Schulterblatt bilden den Schultergürtel."
+    },
+    {
+      "title": "Wirbelsäule und Rücken",
+      "text": "Die Wirbelsäule stützt den Körper und schützt das Rückenmark. Sie umfasst 7 Halswirbel, 12 Brustwirbel und 5 Lendenwirbel sowie Kreuzbein und Steißbein aus verwachsenen Wirbeln. Elastische Bandscheiben zwischen beweglichen Wirbeln federn Stöße ab. Die doppelte S-Form macht die Wirbelsäule elastisch. Regelmäßige Bewegung, aufrechtes Sitzen und gleichmäßiges Tragen von Taschen helfen dem Rücken."
+    },
+    {
+      "title": "Arm und Bein",
+      "text": "Zum Armskelett gehören Oberarmknochen, Elle, Speiche, Handwurzel-, Mittelhand- und Fingerknochen. Zum Beinskelett gehören Oberschenkelknochen, Schienbein, Wadenbein, Fußwurzel-, Mittelfuß- und Zehenknochen. Beide haben einen ähnlichen Grundbauplan: Die Hand eignet sich zum Greifen, das Bein zum Tragen und Fortbewegen.",
+      "example": "Schädel schützt Gehirn; Brustkorb schützt Herz und Lunge; Wirbelsäule schützt Rückenmark; Becken stabilisiert den Rumpf."
+    }
+  ],
+  "number": 4,
+  "date": "2026-10-30"
+}

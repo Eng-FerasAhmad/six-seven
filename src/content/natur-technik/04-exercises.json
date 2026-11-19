@@ -1,0 +1,249 @@
+[
+  {
+    "id": "natur-technik-4-exercise-1",
+    "lessonId": "natur-technik-4",
+    "question": "Welche drei Hauptaufgaben hat das Skelett?",
+    "options": [
+      "Stützen, schützen und Bewegung mit Muskeln ermöglichen",
+      "Sehen, hören und riechen",
+      "Verdauen, atmen und schmecken",
+      "Wärme erzeugen, Blut reinigen und sprechen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Das Skelett stützt den Körper, schützt Organe und ermöglicht mit Muskeln Bewegung."
+  },
+  {
+    "id": "natur-technik-4-exercise-2",
+    "lessonId": "natur-technik-4",
+    "question": "Was schützt der Schädel vor allem?",
+    "options": [
+      "Das Herz",
+      "Das Gehirn",
+      "Die Lunge",
+      "Den Magen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Der Schädel schützt das Gehirn."
+  },
+  {
+    "id": "natur-technik-4-exercise-3",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Knochen bilden den Brustkorb und was schützt er?",
+    "options": [
+      "Rippen und Brustbein; Herz und Lunge",
+      "Elle und Speiche; Gehirn",
+      "Schienbein und Wadenbein; Magen",
+      "Schlüsselbein und Schulterblatt; Rückenmark"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rippen und Brustbein bilden den Brustkorb. Er schützt Herz und Lunge."
+  },
+  {
+    "id": "natur-technik-4-exercise-4",
+    "lessonId": "natur-technik-4",
+    "question": "Was ist eine Aufgabe des Beckens?",
+    "options": [
+      "Es nimmt Licht wahr",
+      "Es stabilisiert den Rumpf und schützt Organe",
+      "Es schützt das Gehirn",
+      "Es ermöglicht das Greifen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Das Becken stabilisiert den Rumpf und schützt Organe im Beckenraum."
+  },
+  {
+    "id": "natur-technik-4-exercise-5",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Knochen bilden den Schultergürtel und was ermöglichen sie?",
+    "options": [
+      "Elle und Speiche; das Hören",
+      "Schlüsselbein und Schulterblatt; die Beweglichkeit von Schulter und Arm",
+      "Rippen und Brustbein; das Greifen",
+      "Schienbein und Wadenbein; das Sehen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Schlüsselbein und Schulterblatt bilden den Schultergürtel und machen Schulter und Arm beweglich."
+  },
+  {
+    "id": "natur-technik-4-exercise-6",
+    "lessonId": "natur-technik-4",
+    "question": "Was schützt die Wirbelsäule?",
+    "options": [
+      "Das Rückenmark",
+      "Die Lunge",
+      "Die Augen",
+      "Die Finger"
+    ],
+    "answerIndex": 0,
+    "explanation": "Die Wirbelsäule schützt das Rückenmark und stützt den Körper."
+  },
+  {
+    "id": "natur-technik-4-exercise-7",
+    "lessonId": "natur-technik-4",
+    "question": "Wie viele Hals-, Brust- und Lendenwirbel hat die Wirbelsäule?",
+    "options": [
+      "7, 12 und 5",
+      "12, 7 und 5",
+      "5, 5 und 12",
+      "7, 5 und 12"
+    ],
+    "answerIndex": 0,
+    "explanation": "Es sind 7 Halswirbel, 12 Brustwirbel und 5 Lendenwirbel."
+  },
+  {
+    "id": "natur-technik-4-exercise-8",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Aufgabe haben die Bandscheiben?",
+    "options": [
+      "Sie federn Stöße ab",
+      "Sie erzeugen Licht",
+      "Sie schützen die Augen",
+      "Sie nehmen Geräusche wahr"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bandscheiben liegen zwischen beweglichen Wirbeln und federn Stöße ab."
+  },
+  {
+    "id": "natur-technik-4-exercise-9",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Knochen gehören zum Arm?",
+    "options": [
+      "Oberarmknochen, Elle und Speiche",
+      "Oberschenkelknochen, Schienbein und Wadenbein",
+      "Rippen, Brustbein und Becken",
+      "Schädel, Wirbel und Rippen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Oberarmknochen, Elle und Speiche gehören zum Armskelett."
+  },
+  {
+    "id": "natur-technik-4-exercise-10",
+    "lessonId": "natur-technik-4",
+    "question": "Wobei helfen Handwurzel-, Mittelhand- und Fingerknochen?",
+    "options": [
+      "Beim Greifen und bei genauen Handbewegungen",
+      "Beim Hören",
+      "Beim Schutz der Lunge",
+      "Beim Abfedern der Wirbelsäule"
+    ],
+    "answerIndex": 0,
+    "explanation": "Die Knochen der Hand ermöglichen Greifen und genaue Bewegungen."
+  },
+  {
+    "id": "natur-technik-4-exercise-11",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Knochen gehören zum Bein?",
+    "options": [
+      "Elle und Speiche",
+      "Oberschenkelknochen, Schienbein und Wadenbein",
+      "Schlüsselbein und Schulterblatt",
+      "Rippen und Brustbein"
+    ],
+    "answerIndex": 1,
+    "explanation": "Oberschenkelknochen, Schienbein und Wadenbein gehören zum Beinskelett."
+  },
+  {
+    "id": "natur-technik-4-exercise-12",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Aufgabe haben Fußwurzel-, Mittelfuß- und Zehenknochen?",
+    "options": [
+      "Sie tragen Gewicht, geben Halt und helfen beim Abrollen",
+      "Sie schützen das Gehirn",
+      "Sie verbinden Rippen mit dem Brustbein",
+      "Sie machen den Arm beweglich"
+    ],
+    "answerIndex": 0,
+    "explanation": "Die Fußknochen helfen beim Stehen und Gehen."
+  },
+  {
+    "id": "natur-technik-4-exercise-13",
+    "lessonId": "natur-technik-4",
+    "question": "Was hilft deinem Rücken im Alltag?",
+    "options": [
+      "Regelmäßige Bewegung, aufrechtes Sitzen und gleichmäßiges Tragen",
+      "Immer nur auf einer Seite tragen",
+      "Möglichst wenig bewegen",
+      "Dauerhaft krumm sitzen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bewegung, aufrechtes Sitzen und gleichmäßiges Tragen entlasten den Rücken."
+  },
+  {
+    "id": "natur-technik-4-exercise-16",
+    "lessonId": "natur-technik-4",
+    "question": "Was ist das zentrale Nervensystem?",
+    "options": [
+      "Gehirn und Rückenmark",
+      "Herz und Lunge",
+      "Magen und Darm",
+      "Knochen und Muskeln"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gehirn und Rückenmark bilden zusammen das zentrale Nervensystem."
+  },
+  {
+    "id": "natur-technik-4-exercise-17",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Form hat die Wirbelsäule?",
+    "options": [
+      "Eine doppelte S-Form",
+      "Eine gerade Stange",
+      "Einen Kreis",
+      "Ein Dreieck"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ihre doppelte S-Form macht die Wirbelsäule elastisch."
+  },
+  {
+    "id": "natur-technik-4-exercise-18",
+    "lessonId": "natur-technik-4",
+    "question": "Was ermöglicht der opponierbare Daumen?",
+    "options": [
+      "Den Pinzettengriff",
+      "Das Hören",
+      "Den aufrechten Gang",
+      "Das Atmen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mit dem opponierbaren Daumen können kleine Gegenstände präzise gegriffen werden."
+  },
+  {
+    "id": "natur-technik-4-exercise-19",
+    "lessonId": "natur-technik-4",
+    "question": "Welche Aufgabe haben Längs- und Quergewölbe des Fußes?",
+    "options": [
+      "Sie verteilen Belastung und federn Stöße ab",
+      "Sie schützen das Gehirn",
+      "Sie verbinden die Rippen",
+      "Sie bewegen den Arm"
+    ],
+    "answerIndex": 0,
+    "explanation": "Die Fußgewölbe verteilen Belastung und federn Stöße beim Gehen ab."
+  },
+  {
+    "id": "natur-technik-4-exercise-21",
+    "lessonId": "natur-technik-4",
+    "question": "Wie viele Bandscheiben liegen zwischen den beweglichen Wirbeln?",
+    "options": [
+      "7",
+      "12",
+      "23",
+      "35"
+    ],
+    "answerIndex": 2,
+    "explanation": "Zwischen den beweglichen Wirbeln liegen 23 elastische Bandscheiben."
+  },
+  {
+    "id": "natur-technik-4-exercise-22",
+    "lessonId": "natur-technik-4",
+    "question": "Was kann einen Senkfuß oder Plattfuß begünstigen?",
+    "options": [
+      "Dauerbelastung und ungeeignetes Schuhwerk",
+      "Regelmäßige Bewegung allein",
+      "Aufrechtes Sitzen",
+      "Das Tragen einer leichten Tasche"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dauerbelastung und ungeeignetes Schuhwerk können einen Senkfuß oder Plattfuß begünstigen."
+  }
+]

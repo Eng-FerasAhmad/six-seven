@@ -1,0 +1,197 @@
+[
+  {
+    "id": "geographie-5-question-1",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Nach einem Regentag ist der Boden unter der Oberfläche nass. Wann nennt man das Wasser dort Grundwasser?",
+    "options": [
+      "Wenn es als Dampf aufsteigt",
+      "Wenn es Hohlräume im Untergrund zusammenhängend ausfüllt",
+      "Sobald ein Tropfen auf ein Blatt fällt"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Wenn es Hohlräume im Untergrund zusammenhängend ausfüllt."
+  },
+  {
+    "id": "geographie-5-question-2",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Regenwasser sickert durch Sand und trifft auf eine fast wasserundurchlässige Schicht. Wie heißt diese Schicht?",
+    "options": [
+      "Grundwasserstauer",
+      "Oberflächenabfluss",
+      "Wolke"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Grundwasserstauer."
+  },
+  {
+    "id": "geographie-5-question-3",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "In drei gleich große Gefäße mit Kies, Sand und Ton wird gleich viel Wasser gegossen. Wo fließt es normalerweise am schnellsten durch?",
+    "options": [
+      "Ton",
+      "Kies",
+      "Sand"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Kies."
+  },
+  {
+    "id": "geographie-5-question-4",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Warum versickert Wasser in Kies meistens schneller als in Ton?",
+    "options": [
+      "Zwischen Kieselsteinen sind größere Hohlräume",
+      "Kies zieht Regen an",
+      "Ton besteht aus Wolken"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Zwischen Kieselsteinen sind größere Hohlräume."
+  },
+  {
+    "id": "geographie-5-question-5",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Welcher Satz beschreibt Versickerung?",
+    "options": [
+      "Wasser dringt in den Boden ein",
+      "Wasser fällt aus Wolken",
+      "Wasser steigt als Dampf auf"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Wasser dringt in den Boden ein."
+  },
+  {
+    "id": "geographie-5-question-6",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Was treibt die Verdunstung an?",
+    "options": [
+      "Sonnenenergie",
+      "Nur die Schwerkraft",
+      "Der Grundwasserstauer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Sonnenenergie."
+  },
+  {
+    "id": "geographie-5-question-7",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Was bedeutet Kondensation?",
+    "options": [
+      "Wasser fließt bergab",
+      "Wasserdampf wird zu Wassertröpfchen",
+      "Wasser dringt in den Boden ein"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig: Wasserdampf wird zu Wassertröpfchen."
+  },
+  {
+    "id": "geographie-5-question-8",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Welche Formen von Niederschlag gibt es?",
+    "options": [
+      "Regen, Schnee und Hagel",
+      "Nur Wasserdampf",
+      "Kies, Sand und Ton"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Regen, Schnee und Hagel."
+  },
+  {
+    "id": "geographie-5-question-9",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Welche Kraft lässt Wasser bergab fließen?",
+    "options": [
+      "Schwerkraft",
+      "Sonnenenergie allein",
+      "Kondensation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig: Schwerkraft."
+  },
+  {
+    "id": "geographie-5-question-10",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Welche Reihenfolge beschreibt den Wasserkreislauf?",
+    "options": [
+      "Niederschlag → Verdunstung → Kondensation",
+      "Verdunstung → Kondensation → Niederschlag",
+      "Versickerung → Kies → Sand"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig: Verdunstung → Kondensation → Niederschlag."
+  },
+  {
+    "id": "geographie-5-question-11",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Auf einer Zeichnung steigt Wasser als Dampf vom See nach oben. Wie beschriftest du den Pfeil?",
+    "options": [
+      "Verdunstung",
+      "Niederschlag",
+      "Versickerung"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Verdunstung."
+  },
+  {
+    "id": "geographie-5-question-12",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Ein Pfeil führt vom Regen in den Boden. Welche Beschriftung passt?",
+    "options": [
+      "Kondensation",
+      "Versickerung",
+      "Oberflächenabfluss"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Versickerung."
+  },
+  {
+    "id": "geographie-5-question-13",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Ein Pfeil zeigt Wasser, das über einen Hang in einen Bach fließt. Wie heißt dieser Vorgang?",
+    "options": [
+      "Oberflächenabfluss",
+      "Verdunstung",
+      "Grundwasserstauer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Oberflächenabfluss."
+  },
+  {
+    "id": "geographie-5-question-14",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "In einer Zeichnung bilden sich aus abgekühltem Wasserdampf kleine Tröpfchen. Welcher Begriff passt?",
+    "options": [
+      "Kondensation",
+      "Versickerung",
+      "Niederschlag"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Kondensation."
+  },
+  {
+    "id": "geographie-5-question-15",
+    "lessonId": "geographie-5",
+    "kind": "multiple-choice",
+    "question": "Auf einer Zeichnung fällt Regen aus einer Wolke. Wie beschriftest du den Pfeil?",
+    "options": [
+      "Verdunstung",
+      "Niederschlag",
+      "Grundwasser"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Niederschlag."
+  }
+]

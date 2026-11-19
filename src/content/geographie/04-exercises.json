@@ -1,0 +1,202 @@
+[
+  {
+    "id": "geographie-4-question-1",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Was ist ein Globus?",
+    "options": [
+      "Ein verkleinertes Modell der Erde",
+      "Ein Stern",
+      "Eine Karte nur von Europa",
+      "Ein Längenkreis"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Ein verkleinertes Modell der Erde."
+  },
+  {
+    "id": "geographie-4-question-2",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Welche Linie teilt die Erde in Nord- und Südhalbkugel?",
+    "options": [
+      "Nullmeridian",
+      "Äquator",
+      "Nordpol",
+      "180. Meridian"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Äquator."
+  },
+  {
+    "id": "geographie-4-question-3",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Wie verlaufen Breitenkreise?",
+    "options": [
+      "Vom Nordpol zum Südpol",
+      "Von West nach Ost",
+      "Nur durch Europa",
+      "Immer durch Greenwich"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Von West nach Ost."
+  },
+  {
+    "id": "geographie-4-question-4",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Was ist der Nullmeridian?",
+    "options": [
+      "0° Breite",
+      "90° Länge",
+      "0° Länge",
+      "180° Breite"
+    ],
+    "answerIndex": 2,
+    "explanation": "Richtig ist: 0° Länge."
+  },
+  {
+    "id": "geographie-4-question-5",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "In welcher Reihenfolge schreibt man Koordinaten?",
+    "options": [
+      "Länge, dann Breite",
+      "Breite, dann Länge",
+      "Nur die Breite",
+      "Nur die Länge"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Breite, dann Länge."
+  },
+  {
+    "id": "geographie-4-question-6",
+    "lessonId": "geographie-4",
+    "kind": "true-false",
+    "question": "Alle Längenkreise gehen durch den Nordpol.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Richtig."
+  },
+  {
+    "id": "geographie-4-question-7",
+    "lessonId": "geographie-4",
+    "kind": "true-false",
+    "question": "Alle Breitenkreise haben denselben Umfang.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Falsch."
+  },
+  {
+    "id": "geographie-4-question-8",
+    "lessonId": "geographie-4",
+    "kind": "true-false",
+    "question": "Der Äquator ist der größte Breitenkreis.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Richtig."
+  },
+  {
+    "id": "geographie-4-question-9",
+    "lessonId": "geographie-4",
+    "kind": "true-false",
+    "question": "Die Längenkreise rücken zum Äquator hin zusammen.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: Falsch."
+  },
+  {
+    "id": "geographie-4-question-10",
+    "lessonId": "geographie-4",
+    "kind": "true-false",
+    "question": "Afrika liegt auf der Nord- und Südhalbkugel.",
+    "options": [
+      "Richtig",
+      "Falsch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: Richtig."
+  },
+  {
+    "id": "geographie-4-question-11",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Welche Koordinate liegt nördlich und östlich?",
+    "options": [
+      "20° N / 20° O",
+      "20° S / 20° O",
+      "20° N / 20° W",
+      "20° O / 20° N"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: 20° N / 20° O."
+  },
+  {
+    "id": "geographie-4-question-12",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Welche Koordinate liegt südlich und westlich?",
+    "options": [
+      "10° N / 50° W",
+      "10° S / 50° O",
+      "10° S / 50° W",
+      "50° W / 10° S"
+    ],
+    "answerIndex": 2,
+    "explanation": "Richtig ist: 10° S / 50° W."
+  },
+  {
+    "id": "geographie-4-question-13",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Welche Angabe bedeutet 30 Grad nördlich und 60 Grad westlich?",
+    "options": [
+      "30° N / 60° W",
+      "30° S / 60° W",
+      "60° W / 30° N",
+      "30° N / 60° O"
+    ],
+    "answerIndex": 0,
+    "explanation": "Richtig ist: 30° N / 60° W."
+  },
+  {
+    "id": "geographie-4-question-14",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Wie schreibt man 48 Grad nördliche Breite und 11 Grad östliche Länge?",
+    "options": [
+      "11° O / 48° N",
+      "48° N / 11° O",
+      "48° S / 11° O",
+      "48° N / 11° W"
+    ],
+    "answerIndex": 1,
+    "explanation": "Richtig ist: 48° N / 11° O."
+  },
+  {
+    "id": "geographie-4-question-15",
+    "lessonId": "geographie-4",
+    "kind": "multiple-choice",
+    "question": "Welcher Punkt liegt bei 20° N / 50° O?",
+    "options": [
+      "20° südlich und 50° östlich",
+      "20° nördlich und 50° westlich",
+      "20° nördlich und 50° östlich",
+      "50° nördlich und 20° östlich"
+    ],
+    "answerIndex": 2,
+    "explanation": "Richtig ist: 20° nördlich und 50° östlich."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "geographie-test-5",
+  "subjectId": "geographie",
+  "title": "Wissenstest Geografie 5. Klasse: Grundwasser und Wasserkreislauf",
+  "description": "15 altersgerechte Aufgaben mit Beispielen aus Bodenversuchen und einer Wasserkreislauf-Zeichnung.",
+  "durationMinutes": 20,
+  "exerciseIds": [
+    "geographie-5-question-1",
+    "geographie-5-question-2",
+    "geographie-5-question-3",
+    "geographie-5-question-4",
+    "geographie-5-question-5",
+    "geographie-5-question-6",
+    "geographie-5-question-7",
+    "geographie-5-question-8",
+    "geographie-5-question-9",
+    "geographie-5-question-10",
+    "geographie-5-question-11",
+    "geographie-5-question-12",
+    "geographie-5-question-13",
+    "geographie-5-question-14",
+    "geographie-5-question-15"
+  ]
+}

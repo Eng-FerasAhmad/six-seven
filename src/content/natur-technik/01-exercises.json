@@ -1,10 +1,41 @@
 [
   {
-    "id": "natur-technik-1-exercise",
+    "id": "natur-technik-1-exercise-1",
     "lessonId": "natur-technik-1",
-    "question": "Womit nehmen Pflanzen Wasser auf?",
-    "options": ["Blüten", "Wurzeln", "Früchten", "Samen"],
+    "question": "Was bedeutet Biologie?",
+    "options": [
+      "Lehre vom Leben",
+      "Lehre von Zahlen",
+      "Lehre von Sternen",
+      "Lehre von Maschinen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Biologie ist die Lehre vom Leben."
+  },
+  {
+    "id": "natur-technik-1-exercise-2",
+    "lessonId": "natur-technik-1",
+    "question": "Was geschieht vor der Durchführung eines Experiments?",
+    "options": [
+      "Aufräumen",
+      "Planen",
+      "Auswerten",
+      "Ergebnisse veröffentlichen"
+    ],
     "answerIndex": 1,
-    "explanation": "Pflanzen brauchen Wasser, Licht, Luft und passende Temperaturen zum Wachsen. Mit ihren Wurzeln nehmen sie Wasser auf."
+    "explanation": "Zuerst wird das Experiment geplant."
+  },
+  {
+    "id": "natur-technik-1-exercise-3",
+    "lessonId": "natur-technik-1",
+    "question": "Welche Reihenfolge ist richtig?",
+    "options": [
+      "Planen → durchführen → dokumentieren → auswerten → aufräumen",
+      "Durchführen → planen → aufräumen → auswerten",
+      "Auswerten → planen → durchführen → aufräumen",
+      "Aufräumen → dokumentieren → planen → durchführen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ein Experiment beginnt mit der Planung und endet mit dem Aufräumen."
   }
 ]

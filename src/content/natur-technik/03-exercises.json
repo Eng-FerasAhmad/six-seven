@@ -1,0 +1,54 @@
+[
+  {
+    "id": "natur-technik-3-exercise-1",
+    "lessonId": "natur-technik-3",
+    "question": "Welchen Reiz nimmt das Ohr wahr?",
+    "options": [
+      "Licht",
+      "Schall",
+      "Duftstoffe",
+      "Druck"
+    ],
+    "answerIndex": 1,
+    "explanation": "Das Ohr nimmt Schall wahr."
+  },
+  {
+    "id": "natur-technik-3-exercise-2",
+    "lessonId": "natur-technik-3",
+    "question": "Was folgt in der Reiz-Reaktions-Kette auf das Sinnesorgan?",
+    "options": [
+      "Nerven",
+      "Muskeln",
+      "Reaktion",
+      "Knochen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Vom Sinnesorgan wandert das Signal über Nerven zum Gehirn."
+  },
+  {
+    "id": "natur-technik-3-exercise-3",
+    "lessonId": "natur-technik-3",
+    "question": "Was trifft auf Reflexe zu?",
+    "options": [
+      "Sie sind immer bewusst gesteuert",
+      "Sie sind besonders schnell und unwillkürlich",
+      "Sie brauchen keine Reize",
+      "Sie finden nur im Auge statt"
+    ],
+    "answerIndex": 1,
+    "explanation": "Reflexe sind schnelle, unwillkürliche Reaktionen."
+  },
+  {
+    "id": "natur-technik-3-exercise-4",
+    "lessonId": "natur-technik-3",
+    "question": "Wie wirkt Alkohol auf die Reaktionszeit?",
+    "options": [
+      "Er verkürzt sie",
+      "Er verändert sie nie",
+      "Er verlängert sie",
+      "Er macht Reflexe bewusst"
+    ],
+    "answerIndex": 2,
+    "explanation": "Alkohol beeinträchtigt die Verarbeitung im Gehirn und verlängert die Reaktionszeit."
+  }
+]

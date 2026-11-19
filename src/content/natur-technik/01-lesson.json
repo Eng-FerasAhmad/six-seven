@@ -1,16 +1,25 @@
 {
   "id": "natur-technik-1",
   "subjectId": "natur-technik",
-  "title": "Was Pflanzen brauchen",
-  "description": "Das Geheimnis grüner Blätter.",
-  "minutes": 6,
+  "title": "Biologie und Experimentieren",
+  "description": "Wie Wissenschaftler Lebewesen erforschen.",
+  "minutes": 9,
   "sections": [
     {
-      "title": "Pflanzen erforschen",
-      "text": "Pflanzen brauchen Wasser, Licht, Luft und passende Temperaturen zum Wachsen. Mit ihren Wurzeln nehmen sie Wasser auf.",
-      "example": "Eine Pflanze am Fenster bekommt Licht. Gieße sie regelmäßig."
+      "title": "Was ist Biologie?",
+      "text": "Biologie ist die Lehre vom Leben. „Bios“ bedeutet Leben und „logos“ bedeutet Lehre.",
+      "example": "Biologie fragt: Was lebt? Wie funktioniert Leben? Ein Experiment prüft eine Vermutung Schritt für Schritt."
+    },
+    {
+      "title": "Arbeiten im Labor",
+      "text": "Wissenschaftlerinnen und Wissenschaftler beobachten, stellen Fragen, formulieren Vermutungen und überprüfen diese durch Experimente."
+    },
+    {
+      "title": "Ablauf eines Experiments",
+      "text": "Ein Experiment wird geplant, durchgeführt, dokumentiert und ausgewertet. Zum Schluss wird der Arbeitsplatz aufgeräumt.",
+      "example": "Merke dir die Reihenfolge: planen → durchführen → dokumentieren → auswerten → aufräumen."
     }
   ],
   "number": 1,
-  "date": "2026-11-09"
+  "date": "2026-09-18"
 }

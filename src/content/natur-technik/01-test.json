@@ -1,9 +1,17 @@
 {
   "id": "natur-technik-test-1",
   "subjectId": "natur-technik",
-  "title": "Mein erster Wissenscheck",
-  "description": "Ein kurzer Beispieltest zu deinen ersten beiden Kursen. Du kannst ihn mehrmals versuchen.",
-  "durationMinutes": 5,
-  "exerciseIds": ["natur-technik-1-exercise", "natur-technik-2-exercise"],
-  "isSample": true
+  "title": "Wissenscheck: Natur & Technik",
+  "description": "Fragen zu den vier Kursen.",
+  "durationMinutes": 10,
+  "exerciseIds": [
+    "natur-technik-1-exercise-1",
+    "natur-technik-1-exercise-2",
+    "natur-technik-2-exercise-1",
+    "natur-technik-2-exercise-2",
+    "natur-technik-3-exercise-1",
+    "natur-technik-3-exercise-2",
+    "natur-technik-4-exercise-1",
+    "natur-technik-4-exercise-2"
+  ]
 }

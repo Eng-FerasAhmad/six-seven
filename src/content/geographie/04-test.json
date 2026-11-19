@@ -1,0 +1,24 @@
+{
+  "id": "geographie-test-4",
+  "subjectId": "geographie",
+  "title": "Wissenstest: Das Gradnetz der Erde",
+  "description": "15 Fragen: 5 Grundbegriffe, 5 Richtig oder falsch, 5 Koordinaten.",
+  "durationMinutes": 20,
+  "exerciseIds": [
+    "geographie-4-question-1",
+    "geographie-4-question-2",
+    "geographie-4-question-3",
+    "geographie-4-question-4",
+    "geographie-4-question-5",
+    "geographie-4-question-6",
+    "geographie-4-question-7",
+    "geographie-4-question-8",
+    "geographie-4-question-9",
+    "geographie-4-question-10",
+    "geographie-4-question-11",
+    "geographie-4-question-12",
+    "geographie-4-question-13",
+    "geographie-4-question-14",
+    "geographie-4-question-15"
+  ]
+}

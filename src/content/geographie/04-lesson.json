@@ -1,0 +1,45 @@
+{
+  "id": "geographie-4",
+  "subjectId": "geographie",
+  "title": "Die Erde, der Globus und das Gradnetz",
+  "description": "Breite, Länge und Koordinaten auf dem Globus bestimmen.",
+  "minutes": 30,
+  "number": 4,
+  "date": "2026-11-18",
+  "sections": [
+    {
+      "title": "Die Erde und der Globus",
+      "text": "Die Erde ist annähernd kugelförmig. Ein Globus ist ein kleines Modell der Erde. Er zeigt Kontinente und Meere. Der Nordpol liegt ganz im Norden, der Südpol ganz im Süden. Der Äquator teilt die Erde in Nordhalbkugel und Südhalbkugel.",
+      "example": "Frage: Welche gedachte Linie teilt die Erde in zwei Halbkugeln? Der Äquator."
+    },
+    {
+      "title": "Das Gradnetz",
+      "text": "Das Gradnetz besteht aus Breitenkreisen und Längenkreisen. Breitenkreise verlaufen von West nach Ost. Längenkreise verlaufen vom Nordpol zum Südpol. Es gibt 90° nördliche und 90° südliche Breite sowie 180° östliche und 180° westliche Länge.",
+      "example": "Merksatz: Bei Koordinaten kommt zuerst die Breite, dann die Länge."
+    },
+    {
+      "title": "Breitenkreise",
+      "text": "Breitenkreise verlaufen parallel zum Äquator. Der Äquator hat 0° Breite und ist der größte Breitenkreis. Nach Norden zählt man bis 90° N am Nordpol, nach Süden bis 90° S am Südpol. Deutschland liegt ungefähr zwischen 47° N und 55° N. Lies bei Karten zuerst die Beschriftung der Linien: Die Schritte können 10°, 5° oder 2° betragen.",
+      "example": "48° N bedeutet: 48 Grad nördlich des Äquators."
+    },
+    {
+      "title": "Längenkreise",
+      "text": "Längenkreise heißen auch Meridiane. Sie treffen sich an beiden Polen. Der Nullmeridian hat 0° Länge und verläuft durch Greenwich bei London. Von ihm aus zählt man nach Osten bis 180° O und nach Westen bis 180° W. Die 180°-Linie liegt dem Nullmeridian gegenüber. Deutschland liegt östlich des Nullmeridians.",
+      "example": "30° W bedeutet westlich, 50° O bedeutet östlich des Nullmeridians."
+    },
+    {
+      "title": "Orte mit Koordinaten bestimmen",
+      "text": "Suche zuerst den Ort. Lies dann seine Breite ab: N oder S? Lies danach seine Länge ab: O oder W? Schreibe immer zuerst die Breite, dann die Länge. Prüfe die Zahlenabstände zwischen den Kartenlinien, bevor du Zwischenwerte schätzt.",
+      "example": "48° N / 11° O bedeutet 48 Grad nördlicher Breite und 11 Grad östlicher Länge."
+    },
+    {
+      "title": "Üben und typische Fehler",
+      "text": "Verwechsle Breitenkreise nicht mit Längenkreisen. Prüfe Nord und Süd am Äquator, Ost und West am Nullmeridian. Die Breitenkreise haben unterschiedliche Umfänge; ihre Abstände entlang eines Meridians sind gleich. Die Längenkreise rücken zu den Polen hin zusammen. Europa liegt auf der Nordhalbkugel, aber nicht vollständig östlich des Nullmeridians. Afrika liegt auf beiden Seiten des Äquators.",
+      "example": "Die Punkte A–D des Arbeitsblatts wurden nur ungefähr abgelesen: A 20° N / 20° O, B 10° S / 50° W, C 30° N / 60° W, D 20° N / 50° O. Für genaue Werte ist die Originalkarte nötig."
+    },
+    {
+      "title": "Die wichtigsten Merksätze",
+      "text": "Der Äquator hat 0° Breite. Der Nullmeridian hat 0° Länge. Breite reicht von 0° bis 90° N oder S. Länge reicht von 0° bis 180° O oder W. Bei Koordinaten steht die Breite vor der Länge. Am 180. Meridian bezeichnen Ost und West dieselbe Linie."
+    }
+  ]
+}

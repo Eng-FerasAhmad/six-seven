@@ -1,10 +1,54 @@
 [
   {
-    "id": "natur-technik-2-exercise",
+    "id": "natur-technik-2-exercise-1",
     "lessonId": "natur-technik-2",
-    "question": "Welcher Sinn gehört zu den Ohren?",
-    "options": ["Sehen", "Riechen", "Hören", "Schmecken"],
+    "question": "Was ist die kleinste lebende Einheit?",
+    "options": [
+      "Organ",
+      "Zelle",
+      "Gewebe",
+      "Knochen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alle Lebewesen bestehen aus mindestens einer Zelle."
+  },
+  {
+    "id": "natur-technik-2-exercise-2",
+    "lessonId": "natur-technik-2",
+    "question": "Welcher Bestandteil kommt zusätzlich in Pflanzenzellen vor?",
+    "options": [
+      "Zellplasma",
+      "Zellkern",
+      "Chloroplasten",
+      "Zellmembran"
+    ],
     "answerIndex": 2,
-    "explanation": "Mit Augen, Ohren, Nase, Zunge und Haut nehmen wir unsere Umwelt wahr. Beim Forschen beobachten wir genau. Probiere im Experiment niemals unbekannte Stoffe!"
+    "explanation": "Chloroplasten mit Chlorophyll sind ein Merkmal von Pflanzenzellen."
+  },
+  {
+    "id": "natur-technik-2-exercise-3",
+    "lessonId": "natur-technik-2",
+    "question": "Was passiert vor der Zellteilung?",
+    "options": [
+      "Die Erbinformation verdoppelt sich",
+      "Die Zellwand verschwindet",
+      "Die Zelle wird zu einem Organ",
+      "Alle Mitochondrien verschwinden"
+    ],
+    "answerIndex": 0,
+    "explanation": "Zuerst wird die Erbinformation verdoppelt."
+  },
+  {
+    "id": "natur-technik-2-exercise-4",
+    "lessonId": "natur-technik-2",
+    "question": "Ist ein Samen immer nicht lebendig?",
+    "options": [
+      "Ja, ausnahmslos",
+      "Nur wenn er groß ist",
+      "Nein, ein lebensfähiger Organismus kann enthalten sein",
+      "Ja, weil er sich nicht bewegt"
+    ],
+    "answerIndex": 2,
+    "explanation": "Bei Samen kommt es auf die Lebensfähigkeit des enthaltenen Organismus an."
   }
 ]

@@ -1,0 +1,29 @@
+{
+  "id": "natur-technik-3",
+  "subjectId": "natur-technik",
+  "title": "Sinne, Reaktionen und Schutz",
+  "description": "Wie Reize verarbeitet werden und wie du deine Sinne schützt.",
+  "minutes": 12,
+  "sections": [
+    {
+      "title": "Sinnesorgane und Reize",
+      "text": "Sinnesorgane nehmen passende Reize auf und wandeln sie in elektrische Signale um. Das Auge nimmt Licht wahr, das Ohr Schall, die Nase Duftstoffe und die Zunge Geschmacksstoffe. Die Haut spürt Berührung, Druck, Wärme und Kälte. Bogengänge im Innenohr helfen beim Gleichgewicht.",
+      "example": "Ein Reiz wird vom Sinnesorgan aufgenommen und über Nerven verarbeitet. Erst danach folgt die Reaktion."
+    },
+    {
+      "title": "Vom Reiz zur Reaktion",
+      "text": "Die Reiz-Reaktions-Kette lautet: Reiz → Sinnesorgan → Nerven → Gehirn → Nerven → ausführendes Organ → Reaktion. Das Gehirn verarbeitet die Information und veranlasst eine passende Reaktion. Reflexe sind besonders schnell und unwillkürlich; bei manchen erfolgt die Verschaltung im Rückenmark."
+    },
+    {
+      "title": "Sinne schützen",
+      "text": "Schütze die Haut vor starker UV-Strahlung, trage bei starkem Sonnenlicht eine geeignete Sonnenbrille und vermeide laute Geräusche. Höre Musik nicht zu laut."
+    },
+    {
+      "title": "Alkohol und Reaktionsfähigkeit",
+      "text": "Alkohol beeinträchtigt die Informationsverarbeitung im Gehirn und verlängert die Reaktionszeit. Tunnelblick und verminderte Hemmungen können riskantes Verhalten fördern. Beim Autofahren steigt die Unfallgefahr. Langanhaltender Konsum kann schwere körperliche Schäden verursachen.",
+      "example": "Ein Reflex läuft besonders schnell und unwillkürlich ab. Schütze Augen, Ohren und Haut vor zu starken Reizen."
+    }
+  ],
+  "number": 3,
+  "date": "2026-10-13"
+}
