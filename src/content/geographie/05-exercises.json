@@ -17,11 +17,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "Regenwasser sickert durch Sand und trifft auf eine fast wasserundurchlässige Schicht. Wie heißt diese Schicht?",
-    "options": [
-      "Grundwasserstauer",
-      "Oberflächenabfluss",
-      "Wolke"
-    ],
+    "options": ["Grundwasserstauer", "Oberflächenabfluss", "Wolke"],
     "answerIndex": 0,
     "explanation": "Richtig ist: Grundwasserstauer."
   },
@@ -30,11 +26,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "In drei gleich große Gefäße mit Kies, Sand und Ton wird gleich viel Wasser gegossen. Wo fließt es normalerweise am schnellsten durch?",
-    "options": [
-      "Ton",
-      "Kies",
-      "Sand"
-    ],
+    "options": ["Ton", "Kies", "Sand"],
     "answerIndex": 1,
     "explanation": "Richtig ist: Kies."
   },
@@ -108,11 +100,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "Welche Kraft lässt Wasser bergab fließen?",
-    "options": [
-      "Schwerkraft",
-      "Sonnenenergie allein",
-      "Kondensation"
-    ],
+    "options": ["Schwerkraft", "Sonnenenergie allein", "Kondensation"],
     "answerIndex": 0,
     "explanation": "Richtig: Schwerkraft."
   },
@@ -134,11 +122,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "Auf einer Zeichnung steigt Wasser als Dampf vom See nach oben. Wie beschriftest du den Pfeil?",
-    "options": [
-      "Verdunstung",
-      "Niederschlag",
-      "Versickerung"
-    ],
+    "options": ["Verdunstung", "Niederschlag", "Versickerung"],
     "answerIndex": 0,
     "explanation": "Richtig ist: Verdunstung."
   },
@@ -147,11 +131,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "Ein Pfeil führt vom Regen in den Boden. Welche Beschriftung passt?",
-    "options": [
-      "Kondensation",
-      "Versickerung",
-      "Oberflächenabfluss"
-    ],
+    "options": ["Kondensation", "Versickerung", "Oberflächenabfluss"],
     "answerIndex": 1,
     "explanation": "Richtig ist: Versickerung."
   },
@@ -160,11 +140,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "Ein Pfeil zeigt Wasser, das über einen Hang in einen Bach fließt. Wie heißt dieser Vorgang?",
-    "options": [
-      "Oberflächenabfluss",
-      "Verdunstung",
-      "Grundwasserstauer"
-    ],
+    "options": ["Oberflächenabfluss", "Verdunstung", "Grundwasserstauer"],
     "answerIndex": 0,
     "explanation": "Richtig ist: Oberflächenabfluss."
   },
@@ -173,11 +149,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "In einer Zeichnung bilden sich aus abgekühltem Wasserdampf kleine Tröpfchen. Welcher Begriff passt?",
-    "options": [
-      "Kondensation",
-      "Versickerung",
-      "Niederschlag"
-    ],
+    "options": ["Kondensation", "Versickerung", "Niederschlag"],
     "answerIndex": 0,
     "explanation": "Richtig ist: Kondensation."
   },
@@ -186,11 +158,7 @@
     "lessonId": "geographie-5",
     "kind": "multiple-choice",
     "question": "Auf einer Zeichnung fällt Regen aus einer Wolke. Wie beschriftest du den Pfeil?",
-    "options": [
-      "Verdunstung",
-      "Niederschlag",
-      "Grundwasser"
-    ],
+    "options": ["Verdunstung", "Niederschlag", "Grundwasser"],
     "answerIndex": 1,
     "explanation": "Richtig ist: Niederschlag."
   }

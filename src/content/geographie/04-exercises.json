@@ -18,12 +18,7 @@
     "lessonId": "geographie-4",
     "kind": "multiple-choice",
     "question": "Welche Linie teilt die Erde in Nord- und Südhalbkugel?",
-    "options": [
-      "Nullmeridian",
-      "Äquator",
-      "Nordpol",
-      "180. Meridian"
-    ],
+    "options": ["Nullmeridian", "Äquator", "Nordpol", "180. Meridian"],
     "answerIndex": 1,
     "explanation": "Richtig ist: Äquator."
   },
@@ -46,12 +41,7 @@
     "lessonId": "geographie-4",
     "kind": "multiple-choice",
     "question": "Was ist der Nullmeridian?",
-    "options": [
-      "0° Breite",
-      "90° Länge",
-      "0° Länge",
-      "180° Breite"
-    ],
+    "options": ["0° Breite", "90° Länge", "0° Länge", "180° Breite"],
     "answerIndex": 2,
     "explanation": "Richtig ist: 0° Länge."
   },
@@ -74,10 +64,7 @@
     "lessonId": "geographie-4",
     "kind": "true-false",
     "question": "Alle Längenkreise gehen durch den Nordpol.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Richtig ist: Richtig."
   },
@@ -86,10 +73,7 @@
     "lessonId": "geographie-4",
     "kind": "true-false",
     "question": "Alle Breitenkreise haben denselben Umfang.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 1,
     "explanation": "Richtig ist: Falsch."
   },
@@ -98,10 +82,7 @@
     "lessonId": "geographie-4",
     "kind": "true-false",
     "question": "Der Äquator ist der größte Breitenkreis.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Richtig ist: Richtig."
   },
@@ -110,10 +91,7 @@
     "lessonId": "geographie-4",
     "kind": "true-false",
     "question": "Die Längenkreise rücken zum Äquator hin zusammen.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 1,
     "explanation": "Richtig ist: Falsch."
   },
@@ -122,10 +100,7 @@
     "lessonId": "geographie-4",
     "kind": "true-false",
     "question": "Afrika liegt auf der Nord- und Südhalbkugel.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Richtig ist: Richtig."
   },

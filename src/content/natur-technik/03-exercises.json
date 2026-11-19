@@ -3,12 +3,7 @@
     "id": "natur-technik-3-exercise-1",
     "lessonId": "natur-technik-3",
     "question": "Welchen Reiz nimmt das Ohr wahr?",
-    "options": [
-      "Licht",
-      "Schall",
-      "Duftstoffe",
-      "Druck"
-    ],
+    "options": ["Licht", "Schall", "Duftstoffe", "Druck"],
     "answerIndex": 1,
     "explanation": "Das Ohr nimmt Schall wahr."
   },
@@ -16,12 +11,7 @@
     "id": "natur-technik-3-exercise-2",
     "lessonId": "natur-technik-3",
     "question": "Was folgt in der Reiz-Reaktions-Kette auf das Sinnesorgan?",
-    "options": [
-      "Nerven",
-      "Muskeln",
-      "Reaktion",
-      "Knochen"
-    ],
+    "options": ["Nerven", "Muskeln", "Reaktion", "Knochen"],
     "answerIndex": 0,
     "explanation": "Vom Sinnesorgan wandert das Signal über Nerven zum Gehirn."
   },

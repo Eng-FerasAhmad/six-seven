@@ -16,12 +16,7 @@
     "id": "natur-technik-4-exercise-2",
     "lessonId": "natur-technik-4",
     "question": "Was schützt der Schädel vor allem?",
-    "options": [
-      "Das Herz",
-      "Das Gehirn",
-      "Die Lunge",
-      "Den Magen"
-    ],
+    "options": ["Das Herz", "Das Gehirn", "Die Lunge", "Den Magen"],
     "answerIndex": 1,
     "explanation": "Der Schädel schützt das Gehirn."
   },
@@ -68,12 +63,7 @@
     "id": "natur-technik-4-exercise-6",
     "lessonId": "natur-technik-4",
     "question": "Was schützt die Wirbelsäule?",
-    "options": [
-      "Das Rückenmark",
-      "Die Lunge",
-      "Die Augen",
-      "Die Finger"
-    ],
+    "options": ["Das Rückenmark", "Die Lunge", "Die Augen", "Die Finger"],
     "answerIndex": 0,
     "explanation": "Die Wirbelsäule schützt das Rückenmark und stützt den Körper."
   },
@@ -81,12 +71,7 @@
     "id": "natur-technik-4-exercise-7",
     "lessonId": "natur-technik-4",
     "question": "Wie viele Hals-, Brust- und Lendenwirbel hat die Wirbelsäule?",
-    "options": [
-      "7, 12 und 5",
-      "12, 7 und 5",
-      "5, 5 und 12",
-      "7, 5 und 12"
-    ],
+    "options": ["7, 12 und 5", "12, 7 und 5", "5, 5 und 12", "7, 5 und 12"],
     "answerIndex": 0,
     "explanation": "Es sind 7 Halswirbel, 12 Brustwirbel und 5 Lendenwirbel."
   },
@@ -224,12 +209,7 @@
     "id": "natur-technik-4-exercise-21",
     "lessonId": "natur-technik-4",
     "question": "Wie viele Bandscheiben liegen zwischen den beweglichen Wirbeln?",
-    "options": [
-      "7",
-      "12",
-      "23",
-      "35"
-    ],
+    "options": ["7", "12", "23", "35"],
     "answerIndex": 2,
     "explanation": "Zwischen den beweglichen Wirbeln liegen 23 elastische Bandscheiben."
   },

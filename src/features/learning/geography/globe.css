@@ -1,1 +1,43 @@
-.globe-lab{padding:1.5rem;margin-bottom:1.5rem;border-radius:18px;background:#eaf6fb;color:#173050}.globe-lab h2{margin-top:0}.globe-layout{display:flex;align-items:center;gap:2rem;flex-wrap:wrap}.globe-layout svg{width:min(100%,340px);flex:0 1 340px}.globe-layout svg text{font-size:12px;fill:#173050;font-weight:700}.globe-controls{display:grid;gap:1rem;flex:1;min-width:220px}.globe-controls label{display:grid;gap:.3rem;font-weight:600}.globe-controls input{width:100%;accent-color:#287eab}.globe-controls strong{font-size:1.1rem}
+.globe-lab {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 18px;
+  background: #eaf6fb;
+  color: #173050;
+}
+.globe-lab h2 {
+  margin-top: 0;
+}
+.globe-layout {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.globe-layout svg {
+  width: min(100%, 340px);
+  flex: 0 1 340px;
+}
+.globe-layout svg text {
+  font-size: 12px;
+  fill: #173050;
+  font-weight: 700;
+}
+.globe-controls {
+  display: grid;
+  gap: 1rem;
+  flex: 1;
+  min-width: 220px;
+}
+.globe-controls label {
+  display: grid;
+  gap: 0.3rem;
+  font-weight: 600;
+}
+.globe-controls input {
+  width: 100%;
+  accent-color: #287eab;
+}
+.globe-controls strong {
+  font-size: 1.1rem;
+}

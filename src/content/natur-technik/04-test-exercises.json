@@ -4,12 +4,7 @@
     "lessonId": "natur-technik-4",
     "kind": "fill-blank",
     "question": "Das menschliche Skelett besteht aus verschiedenen _____.",
-    "options": [
-      "Knochen",
-      "Herz",
-      "Beine",
-      "Muskeln"
-    ],
+    "options": ["Knochen", "Herz", "Beine", "Muskeln"],
     "answerIndex": 0,
     "explanation": "Richtiges Wort: Knochen."
   },
@@ -18,12 +13,7 @@
     "lessonId": "natur-technik-4",
     "kind": "fill-blank",
     "question": "Der _____ schützt das Gehirn und die Sinnesorgane.",
-    "options": [
-      "Schädel",
-      "Herz",
-      "Beine",
-      "Muskeln"
-    ],
+    "options": ["Schädel", "Herz", "Beine", "Muskeln"],
     "answerIndex": 0,
     "explanation": "Richtiges Wort: Schädel."
   },
@@ -32,12 +22,7 @@
     "lessonId": "natur-technik-4",
     "kind": "fill-blank",
     "question": "Die _____ schützt das Rückenmark und stützt den Körper.",
-    "options": [
-      "Wirbelsäule",
-      "Herz",
-      "Beine",
-      "Muskeln"
-    ],
+    "options": ["Wirbelsäule", "Herz", "Beine", "Muskeln"],
     "answerIndex": 0,
     "explanation": "Richtiges Wort: Wirbelsäule."
   },
@@ -46,12 +31,7 @@
     "lessonId": "natur-technik-4",
     "kind": "fill-blank",
     "question": "Rippen und Brustbein bilden den _____.",
-    "options": [
-      "Brustkorb",
-      "Herz",
-      "Beine",
-      "Muskeln"
-    ],
+    "options": ["Brustkorb", "Herz", "Beine", "Muskeln"],
     "answerIndex": 0,
     "explanation": "Richtiges Wort: Brustkorb."
   },
@@ -60,12 +40,7 @@
     "lessonId": "natur-technik-4",
     "kind": "fill-blank",
     "question": "Schlüsselbein und Schulterblatt bilden den _____.",
-    "options": [
-      "Schultergürtel",
-      "Herz",
-      "Beine",
-      "Muskeln"
-    ],
+    "options": ["Schultergürtel", "Herz", "Beine", "Muskeln"],
     "answerIndex": 0,
     "explanation": "Richtiges Wort: Schultergürtel."
   },
@@ -205,12 +180,7 @@
     "lessonId": "natur-technik-4",
     "kind": "multiple-choice",
     "question": "Wie viele Halswirbel hat die Halswirbelsäule?",
-    "options": [
-      "7",
-      "5",
-      "12",
-      "23"
-    ],
+    "options": ["7", "5", "12", "23"],
     "answerIndex": 0,
     "explanation": "Die Halswirbelsäule besteht aus 7 Halswirbeln."
   },
@@ -261,10 +231,7 @@
     "lessonId": "natur-technik-4",
     "kind": "true-false",
     "question": "Die Brustwirbelsäule besteht aus 12 Brustwirbeln.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Richtig: Richtig."
   },
@@ -273,10 +240,7 @@
     "lessonId": "natur-technik-4",
     "kind": "true-false",
     "question": "Kreuzbein und Steißbein bestehen aus frei beweglichen Wirbeln.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 1,
     "explanation": "Richtig: Falsch."
   },
@@ -285,10 +249,7 @@
     "lessonId": "natur-technik-4",
     "kind": "true-false",
     "question": "Eine schwere Schultasche sollte eng am Rücken getragen werden und möglichst leicht gepackt sein.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Richtig: Richtig."
   },
@@ -297,10 +258,7 @@
     "lessonId": "natur-technik-4",
     "kind": "true-false",
     "question": "Das Fußgewölbe hilft, Stöße beim Gehen abzufedern.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Richtig: Richtig."
   },
@@ -309,10 +267,7 @@
     "lessonId": "natur-technik-4",
     "kind": "true-false",
     "question": "Schlüsselbein und Schulterblatt gehören zum Schultergürtel.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Beide Knochen bilden den Schultergürtel."
   },
@@ -321,10 +276,7 @@
     "lessonId": "natur-technik-4",
     "kind": "true-false",
     "question": "Der Arm ist besonders zum Greifen geeignet, das Bein zum Tragen und Fortbewegen.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 0,
     "explanation": "Arm und Bein haben unterschiedliche Aufgaben."
   },
@@ -333,10 +285,7 @@
     "lessonId": "natur-technik-4",
     "kind": "true-false",
     "question": "Die Wirbelsäule ist völlig starr und kann keine Stöße abfedern.",
-    "options": [
-      "Richtig",
-      "Falsch"
-    ],
+    "options": ["Richtig", "Falsch"],
     "answerIndex": 1,
     "explanation": "Die Wirbelsäule ist elastisch und federt Stöße ab."
   }

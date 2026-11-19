@@ -3,12 +3,7 @@
     "id": "natur-technik-2-exercise-1",
     "lessonId": "natur-technik-2",
     "question": "Was ist die kleinste lebende Einheit?",
-    "options": [
-      "Organ",
-      "Zelle",
-      "Gewebe",
-      "Knochen"
-    ],
+    "options": ["Organ", "Zelle", "Gewebe", "Knochen"],
     "answerIndex": 1,
     "explanation": "Alle Lebewesen bestehen aus mindestens einer Zelle."
   },
@@ -16,12 +11,7 @@
     "id": "natur-technik-2-exercise-2",
     "lessonId": "natur-technik-2",
     "question": "Welcher Bestandteil kommt zusätzlich in Pflanzenzellen vor?",
-    "options": [
-      "Zellplasma",
-      "Zellkern",
-      "Chloroplasten",
-      "Zellmembran"
-    ],
+    "options": ["Zellplasma", "Zellkern", "Chloroplasten", "Zellmembran"],
     "answerIndex": 2,
     "explanation": "Chloroplasten mit Chlorophyll sind ein Merkmal von Pflanzenzellen."
   },
