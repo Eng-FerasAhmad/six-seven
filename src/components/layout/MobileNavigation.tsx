@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { BookOpen, ChevronRight, House, Trophy, X } from "lucide-react";
+import { BookOpen, ChevronRight, House, Trophy, Gamepad2, X } from "lucide-react";
 import { useLanguage } from "../../i18n/useLanguage";
 import { subjects } from "../../content";
 import { subjectIcons } from "../subjects/subjectIcons";
@@ -7,6 +7,8 @@ import type { SubjectId } from "../../types";
 interface Props {
   subject: SubjectId | null;
   showProgress: boolean;
+  showGames: boolean;
+  onGames: () => void;
   showSettings: boolean;
   onHome: () => void;
   onProgress: () => void;
@@ -15,6 +17,8 @@ interface Props {
 export function MobileNavigation({
   subject,
   showProgress,
+  showGames,
+  onGames,
   showSettings,
   onHome,
   onProgress,
@@ -47,7 +51,7 @@ export function MobileNavigation({
       >
         <button
           aria-current={
-            !subject && !showProgress && !showSettings ? "page" : undefined
+            !subject && !showProgress && !showSettings && !showGames && !showGames ? "page" : undefined
           }
           onClick={onHome}
         >
@@ -63,6 +67,7 @@ export function MobileNavigation({
           <BookOpen size={22} />
           <span>{t("Fächer", "Subjects")}</span>
         </button>
+        <button aria-current={showGames ? "page" : undefined} onClick={onGames}><Gamepad2 size={22} /><span>{t("Spiele", "Games")}</span></button>
         <button
           aria-current={showProgress ? "page" : undefined}
           onClick={onProgress}

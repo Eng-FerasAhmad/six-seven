@@ -18,6 +18,7 @@ import { SubjectPage } from "./features/overview/SubjectPage";
 import { TestPage } from "./features/tests/TestPage";
 import { useTestProgress } from "./hooks/useTestProgress";
 import { useCourseHistory } from "./hooks/useCourseHistory";
+import { GamesPage } from "./features/games/GamesPage";
 import "./App.css";
 import "./mobile.css";
 
@@ -25,6 +26,7 @@ type Page =
   | { kind: "overview"; subjectId: SubjectId | null }
   | { kind: "lesson"; lesson: Lesson; subjectId: SubjectId | null }
   | { kind: "progress" }
+  | { kind: "games" }
   | { kind: "settings" }
   | { kind: "test"; test: TestDefinition; subjectId: SubjectId };
 
@@ -37,7 +39,7 @@ export default function App() {
   const testProgress = useTestProgress();
   const { attempts, recordAttempt } = useCourseHistory();
   const subjectId =
-    page.kind === "progress" || page.kind === "settings"
+    page.kind === "progress" || page.kind === "settings" || page.kind === "games"
       ? null
       : page.subjectId;
   const currentSubject = subjects.find((subject) => subject.id === subjectId);
@@ -86,6 +88,8 @@ export default function App() {
           <MobileNavigation
             subject={subjectId}
             showProgress={page.kind === "progress"}
+            showGames={page.kind === "games"}
+            onGames={() => setPage({ kind: "games" })}
             showSettings={page.kind === "settings"}
             onHome={goHome}
             onProgress={() => setPage({ kind: "progress" })}
@@ -95,6 +99,8 @@ export default function App() {
           <Sidebar
             subject={subjectId}
             showProgress={page.kind === "progress"}
+            showGames={page.kind === "games"}
+            onGames={() => setPage({ kind: "games" })}
             showSettings={page.kind === "settings"}
             onSettings={() => setPage({ kind: "settings" })}
             onHome={goHome}
@@ -111,7 +117,9 @@ export default function App() {
             showSettings={page.kind === "settings"}
           />
           <main>
-            {page.kind === "settings" ? (
+            {page.kind === "games" ? (
+              <GamesPage />
+            ) : page.kind === "settings" ? (
               <SettingsPage cloudSync={cloudSync} />
             ) : page.kind === "progress" ? (
               <ProgressPage

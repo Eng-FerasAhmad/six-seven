@@ -7,6 +7,7 @@ import {
   Clock3,
   Pencil,
   RotateCcw,
+  Volume2,
 } from "lucide-react";
 import { tests } from "../../content";
 import vocabulary from "../../content/englisch/vocabulary.json";
@@ -27,6 +28,24 @@ interface Props {
   results: TestResult[];
   onLesson: (lesson: Lesson) => void;
   onTest: (test: TestDefinition) => void;
+}
+function SpeakButton({ word }: { word: string }) {
+  return (
+    <button
+      type="button"
+      className="vocabulary-speak"
+      aria-label={`Pronounce ${word}`}
+      onClick={() => {
+        if (!("speechSynthesis" in window)) return;
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(word);
+        utterance.lang = "en-US";
+        window.speechSynthesis.speak(utterance);
+      }}
+    >
+      <Volume2 size={16} />
+    </button>
+  );
 }
 function StatusCheckbox({
   label,
@@ -256,6 +275,7 @@ export function SubjectPage({
                           <td>
                             <span className="vocabulary-edit-cell">
                               {english}
+                              <SpeakButton word={english} />
                               <button
                                 type="button"
                                 aria-label={`${t("Bearbeiten", "Edit")} ${english}`}
@@ -349,6 +369,7 @@ export function SubjectPage({
                       <td>
                         <span className="vocabulary-edit-cell">
                           {english}
+                          <SpeakButton word={english} />
                           <button
                             type="button"
                             aria-label={`${t("Bearbeiten", "Edit")} ${english}`}

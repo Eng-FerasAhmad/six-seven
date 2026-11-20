@@ -1893,6 +1893,10 @@ main {
   opacity: 1;
   color: var(--purple);
 }
+.vocabulary-edit-cell .vocabulary-speak {
+  opacity: 1;
+  color: var(--purple);
+}
 @media (hover: none) {
   .vocabulary-edit-cell button {
     opacity: 1;

@@ -1,5 +1,5 @@
 import { useLanguage } from "../../i18n/useLanguage";
-import { House, Settings, Trophy } from "lucide-react";
+import { House, Settings, Trophy, Gamepad2 } from "lucide-react";
 import { subjects } from "../../content";
 import { subjectIcons } from "../subjects/subjectIcons";
 import type { SubjectId } from "../../types";
@@ -7,6 +7,8 @@ import logo from "../../../brand/logo.png";
 interface Props {
   subject: SubjectId | null;
   showProgress: boolean;
+  showGames: boolean;
+  onGames: () => void;
   showSettings: boolean;
   onSettings: () => void;
   onHome: () => void;
@@ -16,6 +18,8 @@ interface Props {
 export function Sidebar({
   subject,
   showProgress,
+  showGames,
+  onGames,
   showSettings,
   onSettings,
   onHome,
@@ -35,7 +39,7 @@ export function Sidebar({
       <nav aria-label={t("Hauptnavigation", "Main navigation")}>
         <button
           className={
-            !showProgress && !showSettings ? "nav-item active" : "nav-item"
+            !showProgress && !showSettings && !showGames ? "nav-item active" : "nav-item"
           }
           onClick={onHome}
         >
@@ -49,6 +53,7 @@ export function Sidebar({
           <span className="tiny-star">✦</span>
         </button>
       </nav>
+      <nav aria-label={t("Spiele", "Games")}><button className={showGames ? "nav-item active" : "nav-item"} onClick={onGames}><Gamepad2 size={20} /> {t("Lernspiele", "Learning games")}</button></nav>
       <div className="nav-caption">{t("DEINE FÄCHER", "YOUR SUBJECTS")}</div>
       <nav aria-label={t("Fächer", "Subjects")}>
         {subjects.map((s) => {
