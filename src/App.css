@@ -1923,9 +1923,9 @@ main {
   .vocabulary-table td:first-child::before { content: "English"; }
   .vocabulary-table td:nth-child(2)::before { content: "Deutsch"; }
   .vocabulary-table td:nth-child(3), .vocabulary-table td:nth-child(4) { border-bottom: 0; }
-  .vocabulary-category-table td:nth-child(3)::before, .vocabulary-review-table td:nth-child(4)::before { content: "Known / Gelernt"; }
-  .vocabulary-category-table td:nth-child(4)::before { content: "Need to learn / Lernen"; }
-  .vocabulary-review-table td:nth-child(3)::before { content: "Category / Kategorie"; }
+  .vocabulary-category-table td:nth-child(3)::before, .vocabulary-review-table td:nth-child(4)::before { content: "Known"; }
+  .vocabulary-category-table td:nth-child(4)::before { content: "Need to learn"; }
+  .vocabulary-review-table td:nth-child(3)::before { content: "Category"; }
   .vocabulary-edit-cell { display: flex; flex-wrap: wrap; min-width: 0; font-size: 1rem; }
   .vocabulary-edit-cell button { opacity: 1; min-width: 36px; min-height: 36px; }
   .vocabulary-edit-cell .vocabulary-speak { margin-left: auto; }
