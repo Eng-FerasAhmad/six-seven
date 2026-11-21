@@ -1,5 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import { BookOpen, ChevronRight, House, Trophy, Gamepad2, X } from "lucide-react";
+import {
+  BookOpen,
+  ChevronRight,
+  House,
+  Trophy,
+  Gamepad2,
+  X,
+} from "lucide-react";
 import { useLanguage } from "../../i18n/useLanguage";
 import { subjects } from "../../content";
 import { subjectIcons } from "../subjects/subjectIcons";
@@ -51,12 +58,14 @@ export function MobileNavigation({
       >
         <button
           aria-current={
-            !subject && !showProgress && !showSettings && !showGames && !showGames ? "page" : undefined
+            !subject && !showProgress && !showSettings && !showGames
+              ? "page"
+              : undefined
           }
           onClick={onHome}
         >
           <House size={22} />
-          <span>{t("Reber lernwelt", "My learning world")}</span>
+          <span>{t("Start", "Home")}</span>
         </button>
         <button
           aria-current={subject ? "page" : undefined}
@@ -67,13 +76,16 @@ export function MobileNavigation({
           <BookOpen size={22} />
           <span>{t("Fächer", "Subjects")}</span>
         </button>
-        <button aria-current={showGames ? "page" : undefined} onClick={onGames}><Gamepad2 size={22} /><span>{t("Spiele", "Games")}</span></button>
+        <button aria-current={showGames ? "page" : undefined} onClick={onGames}>
+          <Gamepad2 size={22} />
+          <span>{t("Spiele", "Games")}</span>
+        </button>
         <button
           aria-current={showProgress ? "page" : undefined}
           onClick={onProgress}
         >
           <Trophy size={22} />
-          <span>{t("Reber Erfolg", "My achievements")}</span>
+          <span>{t("Erfolge", "Progress")}</span>
         </button>
       </nav>
       <dialog

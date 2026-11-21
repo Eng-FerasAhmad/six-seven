@@ -55,7 +55,7 @@ describe("mobile navigation", () => {
     expect(
       screen.getByRole("heading", { name: "Mathematik" }),
     ).toBeInTheDocument();
-    await user.click(screen.getByRole("button", { name: "Reber Erfolg" }));
+    await user.click(screen.getByRole("button", { name: "Erfolge" }));
     expect(
       screen.getByRole("heading", { name: /Schau, was du schon kannst/ }),
     ).toBeInTheDocument();

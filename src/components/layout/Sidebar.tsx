@@ -39,7 +39,9 @@ export function Sidebar({
       <nav aria-label={t("Hauptnavigation", "Main navigation")}>
         <button
           className={
-            !showProgress && !showSettings && !showGames ? "nav-item active" : "nav-item"
+            !showProgress && !showSettings && !showGames
+              ? "nav-item active"
+              : "nav-item"
           }
           onClick={onHome}
         >
@@ -53,7 +55,14 @@ export function Sidebar({
           <span className="tiny-star">✦</span>
         </button>
       </nav>
-      <nav aria-label={t("Spiele", "Games")}><button className={showGames ? "nav-item active" : "nav-item"} onClick={onGames}><Gamepad2 size={20} /> {t("Lernspiele", "Learning games")}</button></nav>
+      <nav aria-label={t("Spiele", "Games")}>
+        <button
+          className={showGames ? "nav-item active" : "nav-item"}
+          onClick={onGames}
+        >
+          <Gamepad2 size={20} /> {t("Lernspiele", "Learning games")}
+        </button>
+      </nav>
       <div className="nav-caption">{t("DEINE FÄCHER", "YOUR SUBJECTS")}</div>
       <nav aria-label={t("Fächer", "Subjects")}>
         {subjects.map((s) => {

@@ -39,7 +39,9 @@ export default function App() {
   const testProgress = useTestProgress();
   const { attempts, recordAttempt } = useCourseHistory();
   const subjectId =
-    page.kind === "progress" || page.kind === "settings" || page.kind === "games"
+    page.kind === "progress" ||
+    page.kind === "settings" ||
+    page.kind === "games"
       ? null
       : page.subjectId;
   const currentSubject = subjects.find((subject) => subject.id === subjectId);
