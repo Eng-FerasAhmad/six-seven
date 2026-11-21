@@ -270,7 +270,7 @@ describe("focused tests", () => {
 });
 
 describe("English subject language", () => {
-  it("uses English for courses, feedback, fullscreen tests and results, then restores German", async () => {
+  it("uses English for subject content while keeping navigation in German", async () => {
     const user = userEvent.setup();
     render(<App />);
     await user.click(
@@ -279,7 +279,7 @@ describe("English subject language", () => {
         { name: "Englisch" },
       ),
     );
-    expect(document.documentElement.lang).toBe("en");
+    expect(document.documentElement.lang).toBe("de");
     expect(
       screen.getByRole("heading", { name: "English" }),
     ).toBeInTheDocument();
@@ -287,10 +287,10 @@ describe("English subject language", () => {
       screen.getByRole("heading", { name: "Courses" }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("navigation", { name: "Subjects" }),
+      screen.getByRole("navigation", { name: "Fächer" }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("button", { name: "Increase text size" }),
+      screen.getByRole("button", { name: "Schrift vergrößern" }),
     ).toBeInTheDocument();
     expect(
       screen.queryByRole("button", { name: /Hello, new friends!/ }),
@@ -300,9 +300,9 @@ describe("English subject language", () => {
       screen.getByRole("heading", { name: "Vocabulary" }),
     ).toBeInTheDocument();
     await user.click(
-      within(screen.getByRole("navigation", { name: "Subjects" })).getByRole(
+      within(screen.getByRole("navigation", { name: "Fächer" })).getByRole(
         "button",
-        { name: "Mathematics" },
+        { name: "Mathematik" },
       ),
     );
     expect(document.documentElement.lang).toBe("de");

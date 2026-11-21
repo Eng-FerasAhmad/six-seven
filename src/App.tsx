@@ -84,7 +84,7 @@ export default function App() {
     );
   }
   return (
-    <LanguageProvider english={subjectId === "englisch"}>
+      <LanguageProvider english={false}>
       <div className="app-shell">
         {isMobile ? (
           <MobileNavigation
@@ -144,15 +144,15 @@ export default function App() {
                 onCancel={testProgress.cancelTest}
               />
             ) : page.kind === "lesson" ? (
-              <LessonPage
+              <LanguageProvider english={subjectId === "englisch"} updateDocument={false}><LessonPage
                 key={page.lesson.id}
                 lesson={page.lesson}
                 onBack={() => setPage({ kind: "overview", subjectId })}
                 onComplete={completeExercise}
                 onAttempt={recordAttempt}
-              />
+              /></LanguageProvider>
             ) : currentSubject ? (
-              <SubjectPage
+              <LanguageProvider english={currentSubject.id === "englisch"} updateDocument={false}><SubjectPage
                 key={currentSubject.id}
                 subject={currentSubject}
                 completed={completed}
@@ -162,7 +162,7 @@ export default function App() {
                 onTest={(test) =>
                   setPage({ kind: "test", test, subjectId: currentSubject.id })
                 }
-              />
+              /></LanguageProvider>
             ) : (
               <OverviewPage
                 completed={completed}
