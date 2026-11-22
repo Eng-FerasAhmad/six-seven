@@ -11,7 +11,9 @@ export function SubjectGrid({
     <div className="subject-grid">
       {subjects.map((s) => {
         const Icon = subjectIcons[s.icon];
-        const count = lessons.filter((l) => l.subjectId === s.id).length;
+        const count = lessons.filter(
+          (l) => l.subjectId === s.id && l.id !== "englisch-grammar",
+        ).length;
         return (
           <button
             key={s.id}

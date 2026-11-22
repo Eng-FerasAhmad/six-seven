@@ -98,6 +98,13 @@ interface Props {
   onAttempt: (id: string, correct: boolean) => void;
 }
 export function LessonPage({ lesson, onBack, onComplete, onAttempt }: Props) {
+  const subjectColor = {
+    mathematik: "blue",
+    deutsch: "purple",
+    englisch: "orange",
+    "natur-technik": "green",
+    geographie: "pink",
+  }[lesson.subjectId];
   const { t } = useLanguage();
   const [practice, setPractice] = useState(false);
   const [exerciseIndex, setExerciseIndex] = useState(0);
@@ -106,17 +113,19 @@ export function LessonPage({ lesson, onBack, onComplete, onAttempt }: Props) {
       exercise.lessonId === lesson.id &&
       !exercise.id.includes("-test-question-"),
   );
-  const exercise = courseExercises[exerciseIndex];
+  const exercise = courseExercises[exerciseIndex % courseExercises.length];
   useEffect(() => {
     if (window.scrollY > 0) window.scrollTo({ top: 0, behavior: "instant" });
   }, [practice, exerciseIndex]);
   function continueLearning() {
-    if (exerciseIndex < courseExercises.length - 1)
-      setExerciseIndex((index) => index + 1);
-    else onBack();
+    if (exerciseIndex < 9) setExerciseIndex((index) => index + 1);
+    else {
+      setPractice(false);
+      setExerciseIndex(0);
+    }
   }
   return (
-    <>
+    <div className={`lesson-page ${subjectColor}`}>
       <button className="back-link" onClick={onBack}>
         <ArrowLeft size={17} /> {t("Zurück zur Übersicht", "Back to overview")}
       </button>
@@ -134,14 +143,39 @@ export function LessonPage({ lesson, onBack, onComplete, onAttempt }: Props) {
         }
       >
         {practice && exercise ? (
-          <ExercisePanel
-            key={exercise.id}
-            exercise={exercise}
-            onReadLesson={() => setPractice(false)}
-            onContinue={continueLearning}
-            onComplete={onComplete}
-            onAttempt={onAttempt}
-          />
+          <div
+            className="course-quiz-backdrop"
+            onMouseDown={(event) => {
+              if (event.target === event.currentTarget) setPractice(false);
+            }}
+          >
+            <div
+              className="course-quiz-dialog"
+              role="dialog"
+              aria-modal="true"
+              aria-label={t("Kurstest", "Course quiz")}
+            >
+              <button
+                type="button"
+                className="course-quiz-close"
+                aria-label={t("Schließen", "Close")}
+                onClick={() => setPractice(false)}
+              >
+                ×
+              </button>
+              <p className="course-quiz-progress">
+                {t("Frage", "Question")} {exerciseIndex + 1} / 10
+              </p>
+              <ExercisePanel
+                key={`${exercise.id}-${exerciseIndex}`}
+                exercise={exercise}
+                onReadLesson={() => setPractice(false)}
+                onContinue={continueLearning}
+                onComplete={onComplete}
+                onAttempt={onAttempt}
+              />
+            </div>
+          </div>
         ) : (
           <>
             {lesson.id !== "natur-technik-4" &&
@@ -255,6 +289,6 @@ export function LessonPage({ lesson, onBack, onComplete, onAttempt }: Props) {
           </>
         )}
       </div>
-    </>
+    </div>
   );
 }

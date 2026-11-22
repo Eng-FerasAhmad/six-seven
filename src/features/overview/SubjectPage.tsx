@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { tests } from "../../content";
 import vocabulary from "../../content/englisch/vocabulary.json";
+import { GrammarPage } from "./GrammarPage";
 import { useStoredState } from "../../hooks/useStoredState";
 import type {
   Lesson,
@@ -85,9 +86,9 @@ export function SubjectPage({
   onTest,
 }: Props) {
   const { t, subjectName } = useLanguage();
-  const [section, setSection] = useState<"courses" | "vocabulary" | "tests">(
-    "courses",
-  );
+  const [section, setSection] = useState<
+    "courses" | "vocabulary" | "grammar" | "tests"
+  >(subject.id === "englisch" ? "grammar" : "courses");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [testCount, setTestCount] = useState(10);
   const [testWords, setTestWords] = useState<
@@ -190,7 +191,7 @@ export function SubjectPage({
     }
   };
   return (
-    <>
+    <div className={`subject-page ${subject.color}`}>
       <h1>{subjectName(subject.id, subject.name)}</h1>
       <p className="intro">{subject.subtitle}</p>
       <div
@@ -198,6 +199,15 @@ export function SubjectPage({
         role="group"
         aria-label={t("Bereich auswählen", "Choose section")}
       >
+        {subject.id === "englisch" && (
+          <button
+            type="button"
+            aria-pressed={section === "grammar"}
+            onClick={() => setSection("grammar")}
+          >
+            Grammar
+          </button>
+        )}
         <button
           type="button"
           aria-pressed={section === "courses"}
@@ -237,6 +247,8 @@ export function SubjectPage({
             onLesson={onLesson}
           />
         </section>
+      ) : section === "grammar" && subject.id === "englisch" ? (
+        <GrammarPage />
       ) : section === "vocabulary" && subject.id === "englisch" ? (
         <section
           className="subject-section"
@@ -526,7 +538,7 @@ export function SubjectPage({
           </p>
           <div className="lesson-list">
             {subject.id === "englisch" && (
-              <div className="vocabulary-test-builder">
+              <div className="vocabulary-test-builder subject-test-card">
                 <h3>{t("Vokabeltest", "Vocabulary test")}</h3>
                 <p>
                   {t(
@@ -535,13 +547,14 @@ export function SubjectPage({
                   )}
                 </p>
                 <form
+                  className="vocabulary-test-controls"
                   onSubmit={(event) => {
                     event.preventDefault();
                     const count = Math.max(
-                      4,
+                      1,
                       Math.min(
                         allVocabulary.length,
-                        Math.floor(testCount || 4),
+                        Math.floor(testCount || 1),
                       ),
                     );
                     setTestCount(count);
@@ -559,7 +572,7 @@ export function SubjectPage({
                   <input
                     id="vocabulary-test-count"
                     type="number"
-                    min="4"
+                    min="1"
                     max={allVocabulary.length}
                     required
                     value={testCount}
@@ -567,8 +580,8 @@ export function SubjectPage({
                       setTestCount(Number(event.target.value))
                     }
                   />
-                  <button type="submit">
-                    {t("Test erstellen", "Create test")}
+                  <button type="submit" className="subject-test-button">
+                    {t("Test starten", "Start test")}
                   </button>
                 </form>
                 {testWords && (
@@ -591,11 +604,7 @@ export function SubjectPage({
                 );
                 const latest = history.at(-1);
                 return (
-                  <button
-                    className="lesson-row"
-                    key={test.id}
-                    onClick={() => onTest(test)}
-                  >
+                  <div className="lesson-row subject-test-card" key={test.id}>
                     <span className={`subject-icon ${subject.color}`}>
                       <Clock3 size={22} />
                     </span>
@@ -622,8 +631,14 @@ export function SubjectPage({
                         </small>
                       )}
                     </span>
-                    <ArrowRight size={20} />
-                  </button>
+                    <button
+                      type="button"
+                      className="subject-test-button"
+                      onClick={() => onTest(test)}
+                    >
+                      {t("Test starten", "Start test")}
+                    </button>
+                  </div>
                 );
               })}
           </div>
@@ -684,6 +699,6 @@ export function SubjectPage({
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

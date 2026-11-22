@@ -37,7 +37,7 @@ export default function App() {
   const [page, setPage] = useState<Page>({ kind: "overview", subjectId: null });
   const { completed, completeExercise } = useLearningProgress();
   const testProgress = useTestProgress();
-  const { attempts, recordAttempt } = useCourseHistory();
+  const { recordAttempt } = useCourseHistory();
   const subjectId =
     page.kind === "progress" ||
     page.kind === "settings" ||
@@ -84,7 +84,7 @@ export default function App() {
     );
   }
   return (
-      <LanguageProvider english={false}>
+    <LanguageProvider english={false}>
       <div className="app-shell">
         {isMobile ? (
           <MobileNavigation
@@ -124,12 +124,7 @@ export default function App() {
             ) : page.kind === "settings" ? (
               <SettingsPage cloudSync={cloudSync} />
             ) : page.kind === "progress" ? (
-              <ProgressPage
-                completed={completed}
-                onSubject={openSubject}
-                attempts={attempts}
-                results={testProgress.results}
-              />
+              <ProgressPage completed={completed} onSubject={openSubject} />
             ) : page.kind === "test" ? (
               <TestPage
                 test={page.test}
@@ -144,25 +139,39 @@ export default function App() {
                 onCancel={testProgress.cancelTest}
               />
             ) : page.kind === "lesson" ? (
-              <LanguageProvider english={subjectId === "englisch"} updateDocument={false}><LessonPage
-                key={page.lesson.id}
-                lesson={page.lesson}
-                onBack={() => setPage({ kind: "overview", subjectId })}
-                onComplete={completeExercise}
-                onAttempt={recordAttempt}
-              /></LanguageProvider>
+              <LanguageProvider
+                english={subjectId === "englisch"}
+                updateDocument={false}
+              >
+                <LessonPage
+                  key={page.lesson.id}
+                  lesson={page.lesson}
+                  onBack={() => setPage({ kind: "overview", subjectId })}
+                  onComplete={completeExercise}
+                  onAttempt={recordAttempt}
+                />
+              </LanguageProvider>
             ) : currentSubject ? (
-              <LanguageProvider english={currentSubject.id === "englisch"} updateDocument={false}><SubjectPage
-                key={currentSubject.id}
-                subject={currentSubject}
-                completed={completed}
-                activeTests={testProgress.active}
-                results={testProgress.results}
-                onLesson={openLesson}
-                onTest={(test) =>
-                  setPage({ kind: "test", test, subjectId: currentSubject.id })
-                }
-              /></LanguageProvider>
+              <LanguageProvider
+                english={currentSubject.id === "englisch"}
+                updateDocument={false}
+              >
+                <SubjectPage
+                  key={currentSubject.id}
+                  subject={currentSubject}
+                  completed={completed}
+                  activeTests={testProgress.active}
+                  results={testProgress.results}
+                  onLesson={openLesson}
+                  onTest={(test) =>
+                    setPage({
+                      kind: "test",
+                      test,
+                      subjectId: currentSubject.id,
+                    })
+                  }
+                />
+              </LanguageProvider>
             ) : (
               <OverviewPage
                 completed={completed}

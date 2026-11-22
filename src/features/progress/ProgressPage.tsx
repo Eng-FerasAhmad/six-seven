@@ -1,21 +1,14 @@
 import { BookOpen, ChevronRight, Star, Trophy } from "lucide-react";
 import { exercises, lessons, subjects } from "../../content";
-import { StudyHistory } from "./StudyHistory";
-import type { CourseAttempt, TestResult, SubjectId } from "../../types";
+import { subjectIcons } from "../../components/subjects/subjectIcons";
+import type { SubjectId } from "../../types";
 interface Props {
   completed: string[];
-  attempts: CourseAttempt[];
-  results: TestResult[];
   onSubject: (id: SubjectId) => void;
 }
-export function ProgressPage({
-  completed,
-  onSubject,
-  attempts,
-  results,
-}: Props) {
+export function ProgressPage({ completed, onSubject }: Props) {
   return (
-    <>
+    <div className="progress-page">
       <div className="eyebrow">JEDER SCHRITT ZÄHLT</div>
       <h1>
         Schau, was du schon kannst! <span>🌟</span>
@@ -39,8 +32,12 @@ export function ProgressPage({
           <span>Deiner Lernreise</span>
         </div>
       </div>
-      <section className="lesson-list">
+      <section
+        className="lesson-list progress-subjects"
+        aria-label="Fortschritt nach Fach"
+      >
         {subjects.map((s) => {
+          const Icon = subjectIcons[s.icon];
           const total = exercises.filter((e) =>
             lessons.some((l) => l.subjectId === s.id && l.id === e.lessonId),
           );
@@ -52,9 +49,9 @@ export function ProgressPage({
               onClick={() => onSubject(s.id)}
             >
               <span className={`subject-icon ${s.color}`}>
-                {s.name === "Mathematik" ? "∑" : "✦"}
+                <Icon size={25} strokeWidth={1.8} />
               </span>
-              <span>
+              <span className="progress-subject-copy">
                 <strong>{s.name}</strong>
                 <small>
                   {count} von {total.length} Übungen geschafft
@@ -66,7 +63,6 @@ export function ProgressPage({
           );
         })}
       </section>
-      <StudyHistory attempts={attempts} results={results} />
-    </>
+    </div>
   );
 }

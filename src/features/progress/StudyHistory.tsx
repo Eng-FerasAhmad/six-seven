@@ -1,12 +1,11 @@
 import { formatDateTime } from "../../utils/dates";
-import { lessons, tests, subjects } from "../../content";
-import type { CourseAttempt, TestResult } from "../../types";
+import { tests, subjects } from "../../content";
+import type { TestResult } from "../../types";
 
 interface Props {
-  attempts: CourseAttempt[];
   results: TestResult[];
 }
-export function StudyHistory({ attempts, results }: Props) {
+export function StudyHistory({ results }: Props) {
   return (
     <>
       <section className="subject-section">
@@ -78,54 +77,6 @@ export function StudyHistory({ attempts, results }: Props) {
                 })}
               </tbody>
             </table>
-          </div>
-        )}
-      </section>
-      <section className="subject-section">
-        <h2>Deine Entwicklung mit Kursen</h2>
-        {attempts.length === 0 ? (
-          <p className="empty-state">
-            Sobald du eine Kursübung beantwortest, beginnt hier deine Lernreise.
-          </p>
-        ) : (
-          <div className="lesson-list">
-            {lessons.map((lesson) => {
-              const history = attempts.filter(
-                (attempt) => attempt.lessonId === lesson.id,
-              );
-              if (history.length === 0) return null;
-              return (
-                <article key={lesson.id} className="course-history">
-                  <h3>{lesson.title}</h3>
-                  <p>
-                    {history.length} Antworten ·{" "}
-                    {history.filter((attempt) => attempt.correct).length}{" "}
-                    richtig
-                  </p>
-                  <p>
-                    Erster Versuch:{" "}
-                    {history[0].correct ? "richtig" : "noch nicht richtig"} →
-                    Letzter Versuch:{" "}
-                    {history.at(-1)!.correct ? "richtig" : "noch nicht richtig"}
-                  </p>
-                  <ol>
-                    {history.map((attempt) => (
-                      <li key={attempt.id}>
-                        <time
-                          dateTime={new Date(attempt.answeredAt).toISOString()}
-                        >
-                          {formatDateTime(attempt.answeredAt)}
-                        </time>{" "}
-                        ·{" "}
-                        {attempt.correct
-                          ? "Richtig beantwortet"
-                          : "Weitergeübt"}
-                      </li>
-                    ))}
-                  </ol>
-                </article>
-              );
-            })}
           </div>
         )}
       </section>

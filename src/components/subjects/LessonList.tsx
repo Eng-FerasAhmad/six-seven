@@ -11,7 +11,10 @@ export function LessonList({ subject, completed, onLesson }: Props) {
   return (
     <div className="lesson-list">
       {lessons
-        .filter((lesson) => lesson.subjectId === subject.id)
+        .filter(
+          (lesson) =>
+            lesson.subjectId === subject.id && lesson.id !== "englisch-grammar",
+        )
         .map((lesson) => {
           const courseExercises = exercises.filter(
             (item) => item.lessonId === lesson.id,

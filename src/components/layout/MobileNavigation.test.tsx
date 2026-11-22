@@ -102,9 +102,7 @@ describe("mobile navigation", () => {
       }),
     );
     await user.click(screen.getByRole("button", { name: "Tests" }));
-    await user.click(
-      screen.getByRole("button", { name: /Mein erster Wissenscheck/ }),
-    );
+    await user.click(screen.getByRole("button", { name: "Test starten" }));
     await user.click(screen.getByRole("button", { name: "Test starten" }));
     expect(screen.queryByRole("navigation")).not.toBeInTheDocument();
     expect(screen.queryByRole("banner")).not.toBeInTheDocument();

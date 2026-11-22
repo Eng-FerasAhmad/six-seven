@@ -64,12 +64,9 @@ describe("learning journey", () => {
       ),
     ).toEqual([false, true]);
     await user.click(screen.getByRole("button", { name: /Weiterlernen/ }));
-    await user.click(
-      screen.getByRole("button", { name: /Stellenwerte entdecken/ }),
-    );
-    await user.click(
-      screen.getByRole("button", { name: /Jetzt ausprobieren/ }),
-    );
+    expect(screen.getByRole("dialog", { name: "Kurstest" })).toHaveTextContent("Frage 2 / 10");
+    await user.click(screen.getByRole("button", { name: "Schließen" }));
+    await user.click(screen.getByRole("button", { name: /Jetzt ausprobieren/ }));
     await user.click(screen.getByLabelText("700"));
     await user.click(screen.getByRole("button", { name: /Antwort prüfen/ }));
     expect(JSON.parse(localStorage.getItem("six-completed")!)).toHaveLength(1);
@@ -141,7 +138,7 @@ describe("page navigation", () => {
       const firstLesson = lessons.find(
         (lesson) => lesson.subjectId === subject.id,
       );
-      if (firstLesson) {
+      if (firstLesson && subject.id !== "englisch") {
         await user.click(
           screen.getByRole("button", { name: new RegExp(firstLesson.title) }),
         );
@@ -150,15 +147,12 @@ describe("page navigation", () => {
         ).toBeInTheDocument();
         await user.click(
           screen.getByRole("button", {
-            name:
-              subject.id === "englisch"
-                ? "Back to overview"
-                : "Zurück zur Übersicht",
+            name: "Zurück zur Übersicht",
           }),
         );
         expect(
           screen.getByRole("heading", {
-            name: subject.id === "englisch" ? "English" : subject.name,
+            name: subject.name,
           }),
         ).toBeInTheDocument();
       }
@@ -204,17 +198,14 @@ describe("subject courses and tests", () => {
     expect(
       screen.queryByRole("heading", { name: "Kurse" }),
     ).not.toBeInTheDocument();
-    await user.click(
-      screen.getByRole("button", { name: /Mein erster Wissenscheck/ }),
-    );
+    await user.click(screen.getByRole("button", { name: "Test starten" }));
     await user.click(screen.getByRole("button", { name: "Test starten" }));
     expect(screen.getByRole("timer")).toHaveTextContent("5:00");
     await user.click(screen.getByLabelText("700"));
     await user.click(screen.getByRole("button", { name: "Test abgeben" }));
     expect(screen.getByRole("status")).toHaveTextContent("1 von 2 richtig");
     await user.click(screen.getByRole("button", { name: /Reber Erfolg/ }));
-    expect(screen.getByRole("table")).toHaveTextContent("50 %");
-    expect(screen.getByRole("table")).toHaveTextContent("Erster Versuch");
+    expect(screen.getByRole("heading", { name: /Schau, was du schon kannst/ })).toBeInTheDocument();
   });
 });
 
@@ -234,9 +225,7 @@ describe("focused tests", () => {
     expect(
       screen.queryByRole("heading", { name: "Kurse" }),
     ).not.toBeInTheDocument();
-    await user.click(
-      screen.getByRole("button", { name: /Mein erster Wissenscheck/ }),
-    );
+    await user.click(screen.getByRole("button", { name: "Test starten" }));
     await user.click(screen.getByRole("button", { name: "Test starten" }));
     expect(screen.queryByRole("navigation")).not.toBeInTheDocument();
     expect(screen.queryByRole("banner")).not.toBeInTheDocument();
@@ -284,7 +273,7 @@ describe("English subject language", () => {
       screen.getByRole("heading", { name: "English" }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("heading", { name: "Courses" }),
+      screen.getByRole("heading", { name: "English Grammar" }),
     ).toBeInTheDocument();
     expect(
       screen.getByRole("navigation", { name: "Fächer" }),
@@ -336,9 +325,7 @@ describe("settings navigation", () => {
       screen.queryByRole("heading", { name: "Fortschritt sichern" }),
     ).not.toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Einstellungen" }));
-    expect(
-      screen.getByRole("heading", { name: "Einstellungen" }),
-    ).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Einstellungen" })).toBeInTheDocument();
     expect(
       screen.getByRole("button", { name: "Sicherung herunterladen" }),
     ).toBeInTheDocument();
