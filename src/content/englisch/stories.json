@@ -1,0 +1,60 @@
+[
+  {
+    "id": "the-talent-show",
+    "title": "The Talent Show",
+    "germanTitle": "Der Talentwettbewerb",
+    "date": "2026-11-23",
+    "grammar": "can / can't",
+    "pages": [
+      "Our school has a talent show on Friday.",
+      "Mia can sing, and Leo can dance.",
+      "I can play the guitar, but I can't sing well.",
+      "Mia smiles. ‘You can play while I sing!’",
+      "Leo can't play an instrument. He can dance!",
+      "At first, I can't remember the steps. Leo helps me.",
+      "On Friday, we go on stage. We can do it!",
+      "Our friends clap and cheer. What a wonderful show!"
+    ],
+    "germanPages": [
+      "Unsere Schule veranstaltet am Freitag einen Talentwettbewerb.",
+      "Mia kann singen und Leo kann tanzen.",
+      "Ich kann Gitarre spielen, aber ich kann nicht gut singen.",
+      "Mia lächelt. ‚Du kannst spielen, während ich singe!‘",
+      "Leo kann kein Instrument spielen. Er kann tanzen!",
+      "Am Anfang kann ich mir die Schritte nicht merken. Leo hilft mir.",
+      "Am Freitag gehen wir auf die Bühne. Wir schaffen das!",
+      "Unsere Freunde klatschen und jubeln. Was für eine tolle Show!"
+    ]
+  },
+  {
+    "id": "the-lost-puppy",
+    "title": "The Lost Puppy",
+    "germanTitle": "Der verlorene Welpe",
+    "date": "2026-11-23",
+    "grammar": "can / can't",
+    "pages": [
+      "Emma can hear a little dog in the park.",
+      "She can see it under a big tree.",
+      "The puppy can't find its family. It looks scared.",
+      "Emma can't take it home, but she can help.",
+      "She calls her friend Ben. Ben can bring some water.",
+      "The puppy can drink, but it can't walk very far.",
+      "Emma can read the name on its collar: Max.",
+      "Ben can call the number on the collar.",
+      "Soon Max's family arrives. They can't stop smiling.",
+      "Max can go home now. Emma and Ben feel happy!"
+    ],
+    "germanPages": [
+      "Emma kann im Park einen kleinen Hund hören.",
+      "Sie kann ihn unter einem großen Baum sehen.",
+      "Der Welpe kann seine Familie nicht finden. Er sieht ängstlich aus.",
+      "Emma kann ihn nicht mit nach Hause nehmen, aber sie kann helfen.",
+      "Sie ruft ihren Freund Ben an. Ben kann Wasser bringen.",
+      "Der Welpe kann trinken, aber er kann nicht weit laufen.",
+      "Emma kann den Namen auf seinem Halsband lesen: Max.",
+      "Ben kann die Nummer auf dem Halsband anrufen.",
+      "Bald kommt Max' Familie. Sie können nicht aufhören zu lächeln.",
+      "Max kann jetzt nach Hause gehen. Emma und Ben sind glücklich!"
+    ]
+  }
+]

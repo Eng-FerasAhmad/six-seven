@@ -613,6 +613,13 @@
 }
 
 @media (max-width: 700px) {
+  .story-book-page {
+    height: 360px;
+    padding: 20px 14px;
+  }
+  .story-page-actions button {
+    flex: 1;
+  }
   .test-actions {
     width: 100%;
     grid-template-columns: minmax(0, 1fr);

@@ -12,6 +12,7 @@ import {
 import { tests } from "../../content";
 import vocabulary from "../../content/englisch/vocabulary.json";
 import { GrammarPage } from "./GrammarPage";
+import { StoriesPage } from "./StoriesPage";
 import { useStoredState } from "../../hooks/useStoredState";
 import type {
   Lesson,
@@ -22,6 +23,7 @@ import type {
 } from "../../types";
 import { LessonList } from "../../components/subjects/LessonList";
 import { VocabularyQuiz } from "./VocabularyQuiz";
+import { formatDate } from "../../utils/dates";
 interface Props {
   subject: Subject;
   completed: string[];
@@ -87,7 +89,7 @@ export function SubjectPage({
 }: Props) {
   const { t, subjectName } = useLanguage();
   const [section, setSection] = useState<
-    "courses" | "vocabulary" | "grammar" | "tests"
+    "courses" | "vocabulary" | "grammar" | "stories" | "tests"
   >(subject.id === "englisch" ? "grammar" : "courses");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [testCount, setTestCount] = useState(10);
@@ -224,6 +226,15 @@ export function SubjectPage({
             {t("Vokabeln", "Vocabulary")}
           </button>
         )}
+        {subject.id === "englisch" && (
+          <button
+            type="button"
+            aria-pressed={section === "stories"}
+            onClick={() => setSection("stories")}
+          >
+            {t("Geschichten", "Stories")}
+          </button>
+        )}
         <button
           type="button"
           aria-pressed={section === "tests"}
@@ -249,6 +260,8 @@ export function SubjectPage({
         </section>
       ) : section === "grammar" && subject.id === "englisch" ? (
         <GrammarPage />
+      ) : section === "stories" && subject.id === "englisch" ? (
+        <StoriesPage />
       ) : section === "vocabulary" && subject.id === "englisch" ? (
         <section
           className="subject-section"
@@ -481,6 +494,9 @@ export function SubjectPage({
                       <strong>{t(item.german, item.english)}</strong>
                       <small>
                         {item.entries.length} {t("Vokabeln", "words")}
+                        {"date" in item &&
+                          typeof item.date === "string" &&
+                          ` - ${formatDate(item.date)}`}
                       </small>
                     </span>
                   </button>
